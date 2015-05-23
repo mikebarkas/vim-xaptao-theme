@@ -1,6 +1,6 @@
 " Vim color file
 "
-" Author:
+" Author: Mike Barkas
 "
 "
 " Note:
