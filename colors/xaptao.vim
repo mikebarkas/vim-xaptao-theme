@@ -1,10 +1,10 @@
 " Vim color file
 "
-" Author: 
-" 
+" Author:
+"
 "
 " Note:
-" 
+"
 
 hi clear
 set background=dark
@@ -109,10 +109,3 @@ hi ColorColumn                   guibg=#232526
 hi LineNr          ctermfg=240 ctermbg=235
 hi NonText         guifg=#465457
 hi SpecialKey      guifg=#465457
-" ============ work above =================================
-"
-"
-
-" Must be at the end, because of ctermbg=234 bug.
-" https://groups.google.com/forum/#!msg/vim_dev/afPqwAFNdrU/nqh6tOM87QUJ
-set background=dark
