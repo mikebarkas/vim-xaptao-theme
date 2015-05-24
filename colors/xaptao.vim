@@ -116,3 +116,17 @@ hi Normal          ctermfg=253   ctermbg=NONE
 hi Comment         ctermfg=240	ctermbg=none	cterm=none
 hi NonText         guifg=#465457
 hi SpecialKey      guifg=#465457
+
+" --------------------------------------------------------
+" PHP
+" --------------------------------------------------------
+hi phpFunctions	  ctermfg=250	ctermbg=none	cterm=none
+hi phpSuperglobal ctermfg=250	ctermbg=none	cterm=none
+hi phpQuoteSingle ctermfg=250	ctermbg=none	cterm=none
+hi phpQuoteDouble ctermfg=250	ctermbg=none	cterm=none
+hi phpBoolean	  ctermfg=250	ctermbg=none	cterm=none
+hi phpNull	  ctermfg=250	ctermbg=none	cterm=none
+hi phpArrayPair	  ctermfg=250	ctermbg=none	cterm=none
+hi phpOperator	  ctermfg=250	ctermbg=none	cterm=none
+hi phpRelation	  ctermfg=250	ctermbg=none	cterm=none
+hi phpVarSelector ctermfg=250	ctermbg=none	cterm=none
