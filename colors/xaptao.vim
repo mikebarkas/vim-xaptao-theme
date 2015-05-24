@@ -34,27 +34,31 @@ hi DiffChange      ctermfg=250	ctermbg=none	cterm=none
 hi DiffDelete      ctermfg=250	ctermbg=none	cterm=none
 hi DiffText        ctermfg=250	ctermbg=none	cterm=none
 
-hi Directory       guifg=#A6E22E               gui=bold
-hi Error           guifg=#E6DB74 guibg=#1E0010
-hi ErrorMsg        guifg=#F92672 guibg=#232526 gui=bold
-hi Exception       guifg=#A6E22E               gui=bold
-hi Float           guifg=#AE81FF
+hi Directory       ctermfg=250	ctermbg=none	cterm=none
+hi Error           ctermfg=9	ctermbg=none	cterm=none
+hi ErrorMsg        ctermfg=250	ctermbg=none	cterm=none
+hi Exception       ctermfg=250	ctermbg=none	cterm=none
+hi Float           ctermfg=250	ctermbg=none	cterm=none
+
+" --------------------------------------------------------
+" Fold
+" --------------------------------------------------------
 hi FoldColumn      guifg=#465457 guibg=#000000
 hi Folded          guifg=#465457 guibg=#000000
-hi Function        ctermfg=179
-hi Identifier      ctermfg=229 ctermbg=NONE cterm=NONE
-hi Ignore          guifg=#808080 guibg=bg
-hi IncSearch       guifg=#C4BE89 guibg=#000000
+hi Function        ctermfg=250	ctermbg=none	cterm=none
+hi Identifier      ctermfg=107	ctermbg=none	cterm=none
+hi Ignore          ctermfg=250	ctermbg=none	cterm=none
+hi IncSearch       ctermfg=250	ctermbg=none	cterm=none
 
-hi Keyword         guifg=#F92672               gui=bold
-hi Label           guifg=#E6DB74               gui=none
-hi Macro           guifg=#C4BE89               gui=italic
-hi SpecialKey      guifg=#66D9EF               gui=italic
+hi Keyword         ctermfg=250	ctermbg=none	cterm=none
+hi Label           ctermfg=250	ctermbg=none	cterm=none
+hi Macro           ctermfg=250	ctermbg=none	cterm=none
+hi SpecialKey      ctermfg=250	ctermbg=none	cterm=none
 
-hi MatchParen      guifg=#000000 guibg=#FD971F gui=bold
-hi ModeMsg         guifg=#E6DB74
-hi MoreMsg         guifg=#E6DB74
-hi Operator        ctermfg=192 ctermbg=NONE
+hi MatchParen      ctermfg=250	ctermbg=none	cterm=none
+hi ModeMsg         ctermfg=250	ctermbg=none	cterm=none
+hi MoreMsg         ctermfg=250	ctermbg=none	cterm=none
+hi Operator        ctermfg=250	ctermbg=none	cterm=none
 
 " complete menu
 hi Pmenu           guifg=#66D9EF guibg=#000000
