@@ -22,15 +22,17 @@ hi Number          ctermfg=167	ctermbg=none	cterm=none
 hi String          ctermfg=107	ctermbg=none	cterm=none
 hi Conditional     ctermfg=250	ctermbg=none	cterm=none
 hi Constant        ctermfg=250	ctermbg=none	cterm=none
-hi Cursor          guifg=#000000 guibg=#F8F8F0
-hi iCursor         guifg=#000000 guibg=#F8F8F0
-hi Debug           guifg=#BCA3A3               gui=bold
+hi Cursor          ctermfg=250	ctermbg=none	cterm=none
+hi Debug           ctermfg=250	ctermbg=none	cterm=none
 hi Define          ctermfg=075  ctermbg=NONE
 hi Delimiter       ctermfg=253  cterm=bold
-hi DiffAdd                       guibg=#13354A
-hi DiffChange      guifg=#89807D guibg=#4C4745
-hi DiffDelete      guifg=#960050 guibg=#1E0010
-hi DiffText                      guibg=#4C4745 gui=italic,bold
+" --------------------------------------------------------
+" Diff
+" --------------------------------------------------------
+hi DiffAdd         ctermfg=250	ctermbg=none	cterm=none
+hi DiffChange      ctermfg=250	ctermbg=none	cterm=none
+hi DiffDelete      ctermfg=250	ctermbg=none	cterm=none
+hi DiffText        ctermfg=250	ctermbg=none	cterm=none
 
 hi Directory       guifg=#A6E22E               gui=bold
 hi Error           guifg=#E6DB74 guibg=#1E0010
