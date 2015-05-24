@@ -16,7 +16,7 @@ endif
 let g:colors_name="xaptao"
 
 
-hi Boolean         guifg=#AE81FF
+hi Boolean         ctermfg=167	ctermbg=none	cterm=none
 hi Character       guifg=#E6DB74
 hi Number          guifg=#AE81FF
 hi String          ctermfg=143
