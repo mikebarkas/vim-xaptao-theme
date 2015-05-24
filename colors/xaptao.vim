@@ -17,11 +17,11 @@ let g:colors_name="xaptao"
 
 
 hi Boolean         ctermfg=167	ctermbg=none	cterm=none
-hi Character       guifg=#E6DB74
-hi Number          guifg=#AE81FF
-hi String          ctermfg=143
-hi Conditional     guifg=#F92672               gui=bold
-hi Constant        ctermfg=052 ctermbg=NONE cterm=NONE
+hi Character       ctermfg=250	ctermbg=none	cterm=none
+hi Number          ctermfg=167	ctermbg=none	cterm=none
+hi String          ctermfg=107	ctermbg=none	cterm=none
+hi Conditional     ctermfg=250	ctermbg=none	cterm=none
+hi Constant        ctermfg=250	ctermbg=none	cterm=none
 hi Cursor          guifg=#000000 guibg=#F8F8F0
 hi iCursor         guifg=#000000 guibg=#F8F8F0
 hi Debug           guifg=#BCA3A3               gui=bold
@@ -61,7 +61,7 @@ hi PmenuSbar                     guibg=#080808
 hi PmenuThumb      guifg=#66D9EF
 
 hi PreCondit       ctermfg=090
-hi PreProc         ctermfg=090 ctermbg=NONE
+hi PreProc         ctermfg=110	ctermbg=none	ctermbg=none
 hi Question        guifg=#66D9EF
 hi Repeat          guifg=#F92672               gui=bold
 hi Search          guifg=#000000 guibg=#FFE792
