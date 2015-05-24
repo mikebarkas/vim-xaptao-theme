@@ -60,22 +60,25 @@ hi ModeMsg         ctermfg=250	ctermbg=none	cterm=none
 hi MoreMsg         ctermfg=250	ctermbg=none	cterm=none
 hi Operator        ctermfg=250	ctermbg=none	cterm=none
 
-" complete menu
-hi Pmenu           guifg=#66D9EF guibg=#000000
-hi PmenuSel                      guibg=#808080
-hi PmenuSbar                     guibg=#080808
-hi PmenuThumb      guifg=#66D9EF
+" --------------------------------------------------------
+" Ccomplete Menu
+" --------------------------------------------------------
+hi Pmenu           ctermfg=250	ctermbg=none	cterm=none
+hi PmenuSel        ctermfg=250	ctermbg=none	cterm=none
+hi PmenuSbar       ctermfg=250	ctermbg=none	cterm=none
+hi PmenuThumb      ctermfg=250	ctermbg=none	cterm=none
 
-hi PreCondit       ctermfg=090
+hi PreCondit       ctermfg=250	ctermbg=none	cterm=none
 hi PreProc         ctermfg=110	ctermbg=none	ctermbg=none
-hi Question        guifg=#66D9EF
-hi Repeat          guifg=#F92672               gui=bold
-hi Search          guifg=#000000 guibg=#FFE792
+hi Question        ctermfg=250	ctermbg=none	cterm=none
+hi Repeat          ctermfg=250	ctermbg=none	cterm=none
+hi Search          ctermfg=250	ctermbg=none	cterm=none
+
 " marks
-hi SignColumn      guifg=#A6E22E guibg=#232526
-hi SpecialChar     guifg=#F92672               gui=bold
-hi SpecialComment  guifg=#7E8E91               gui=bold
-hi Special         guifg=#66D9EF guibg=bg      gui=italic
+hi SignColumn      ctermfg=250	ctermbg=none	cterm=none
+hi SpecialChar     ctermfg=250	ctermbg=none	cterm=none
+hi SpecialComment  ctermfg=250	ctermbg=none	cterm=none
+hi Special         ctermfg=250	ctermbg=none	cterm=none
 
 if has("spell")
     hi SpellBad    guisp=#FF0000 gui=undercurl
