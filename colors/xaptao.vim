@@ -16,7 +16,9 @@ endif
 let g:colors_name="xaptao"
 
 " --------------------------------------------------------
-
+hi LineNr	   ctermfg=59	ctermbg=236	cterm=none
+hi CursorLineNr	   ctermfg=179	ctermbg=none	cterm=none
+" --------------------------------------------------------
 hi Boolean         ctermfg=167	ctermbg=none	cterm=none
 hi Character       ctermfg=250	ctermbg=none	cterm=none
 hi Number          ctermfg=167	ctermbg=none	cterm=none
@@ -112,10 +114,5 @@ hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 
 hi Normal          ctermfg=253   ctermbg=NONE
 hi Comment         ctermfg=240	ctermbg=none	cterm=none
-hi CursorLine                    guibg=#293739
-hi CursorLineNr    guifg=#FD971F               gui=none
-hi CursorColumn                  guibg=#293739
-hi ColorColumn                   guibg=#232526
-hi LineNr          ctermfg=240 ctermbg=235
 hi NonText         guifg=#465457
 hi SpecialKey      guifg=#465457
