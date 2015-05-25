@@ -48,7 +48,7 @@ hi Float           ctermfg=250	ctermbg=none	cterm=none
 " --------------------------------------------------------
 hi FoldColumn      guifg=#465457 guibg=#000000
 hi Folded          guifg=#465457 guibg=#000000
-hi Function        ctermfg=250	ctermbg=none	cterm=none
+hi Function        ctermfg=110	ctermbg=none	cterm=none
 hi Identifier      ctermfg=107	ctermbg=none	cterm=none
 hi Ignore          ctermfg=250	ctermbg=none	cterm=none
 hi IncSearch       ctermfg=250	ctermbg=none	cterm=none
@@ -100,7 +100,7 @@ hi Title           ctermfg=024
 hi Todo            guifg=#FFFFFF guibg=bg      gui=bold
 
 hi Typedef         guifg=#66D9EF
-hi Type            guifg=#66D9EF               gui=none
+hi Type            ctermfg=215	ctermbg=none	cterm=none
 hi Underlined      guifg=#808080               gui=underline
 
 hi VertSplit       guifg=#808080 guibg=#080808 gui=bold
@@ -121,7 +121,7 @@ hi SpecialKey      guifg=#465457
 " PHP
 " --------------------------------------------------------
 hi phpComment	    ctermfg=240	ctermbg=none	cterm=none
-hi phpFunctions	  ctermfg=250	ctermbg=none	cterm=none
+hi phpFunctions	  ctermfg=110	ctermbg=none	cterm=none
 hi phpSuperglobal ctermfg=250	ctermbg=none	cterm=none
 hi phpQuoteSingle ctermfg=250	ctermbg=none	cterm=none
 hi phpQuoteDouble ctermfg=250	ctermbg=none	cterm=none
