@@ -64,7 +64,7 @@ hi MoreMsg         ctermfg=250	ctermbg=none	cterm=none
 hi Operator        ctermfg=250	ctermbg=none	cterm=none
 
 " --------------------------------------------------------
-" Ccomplete Menu
+" Complete Menu
 " --------------------------------------------------------
 hi Pmenu           ctermfg=250	ctermbg=none	cterm=none
 hi PmenuSel        ctermfg=250	ctermbg=none	cterm=none
@@ -120,6 +120,7 @@ hi SpecialKey      guifg=#465457
 " --------------------------------------------------------
 " PHP
 " --------------------------------------------------------
+hi phpComment	    ctermfg=240	ctermbg=none	cterm=none
 hi phpFunctions	  ctermfg=250	ctermbg=none	cterm=none
 hi phpSuperglobal ctermfg=250	ctermbg=none	cterm=none
 hi phpQuoteSingle ctermfg=250	ctermbg=none	cterm=none
