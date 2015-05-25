@@ -22,7 +22,7 @@ hi CursorLineNr	   ctermfg=179	ctermbg=none	cterm=none
 hi Boolean         ctermfg=167	ctermbg=none	cterm=none
 hi Character       ctermfg=250	ctermbg=none	cterm=none
 hi Number          ctermfg=167	ctermbg=none	cterm=none
-hi String          ctermfg=107	ctermbg=none	cterm=none
+hi String          ctermfg=144	ctermbg=none	cterm=none
 hi Conditional     ctermfg=250	ctermbg=none	cterm=none
 hi Constant        ctermfg=250	ctermbg=none	cterm=none
 hi Cursor          ctermfg=250	ctermbg=none	cterm=none
@@ -49,7 +49,7 @@ hi Float           ctermfg=250	ctermbg=none	cterm=none
 hi FoldColumn      guifg=#465457 guibg=#000000
 hi Folded          guifg=#465457 guibg=#000000
 hi Function        ctermfg=110	ctermbg=none	cterm=none
-hi Identifier      ctermfg=107	ctermbg=none	cterm=none
+hi Identifier      ctermfg=246	ctermbg=none	cterm=none
 hi Ignore          ctermfg=250	ctermbg=none	cterm=none
 hi IncSearch       ctermfg=250	ctermbg=none	cterm=none
 
@@ -61,7 +61,7 @@ hi SpecialKey      ctermfg=250	ctermbg=none	cterm=none
 hi MatchParen      ctermfg=250	ctermbg=none	cterm=none
 hi ModeMsg         ctermfg=250	ctermbg=none	cterm=none
 hi MoreMsg         ctermfg=250	ctermbg=none	cterm=none
-hi Operator        ctermfg=250	ctermbg=none	cterm=none
+hi Operator        ctermfg=246	ctermbg=none	cterm=none
 
 " --------------------------------------------------------
 " Complete Menu
@@ -81,7 +81,7 @@ hi Search          ctermfg=250	ctermbg=none	cterm=none
 hi SignColumn      ctermfg=250	ctermbg=none	cterm=none
 hi SpecialChar     ctermfg=250	ctermbg=none	cterm=none
 hi SpecialComment  ctermfg=250	ctermbg=none	cterm=none
-hi Special         ctermfg=250	ctermbg=none	cterm=none
+hi Special         ctermfg=250	ctermbg=none	cterm=bold
 
 if has("spell")
     hi SpellBad    guisp=#FF0000 gui=undercurl
@@ -125,9 +125,9 @@ hi phpFunctions	  ctermfg=110	ctermbg=none	cterm=none
 hi phpSuperglobal ctermfg=250	ctermbg=none	cterm=none
 hi phpQuoteSingle ctermfg=250	ctermbg=none	cterm=none
 hi phpQuoteDouble ctermfg=250	ctermbg=none	cterm=none
-hi phpBoolean	  ctermfg=250	ctermbg=none	cterm=none
-hi phpNull	  ctermfg=250	ctermbg=none	cterm=none
+hi phpBoolean	    ctermfg=250	ctermbg=none	cterm=none
+hi phpNull	      ctermfg=250	ctermbg=none	cterm=none
 hi phpArrayPair	  ctermfg=250	ctermbg=none	cterm=none
-hi phpOperator	  ctermfg=250	ctermbg=none	cterm=none
+hi phpOperator	  ctermfg=246	ctermbg=none	cterm=none
 hi phpRelation	  ctermfg=250	ctermbg=none	cterm=none
 hi phpVarSelector ctermfg=250	ctermbg=none	cterm=none
