@@ -28,7 +28,7 @@ hi Constant        ctermfg=250	ctermbg=none	cterm=none
 hi Cursor          ctermfg=250	ctermbg=none	cterm=none
 hi Debug           ctermfg=250	ctermbg=none	cterm=none
 hi Define          ctermfg=075  ctermbg=NONE
-hi Delimiter       ctermfg=253  cterm=bold
+hi Delimiter       ctermfg=253  ctermbg=none  cterm=bold
 " --------------------------------------------------------
 " Diff
 " --------------------------------------------------------
@@ -124,6 +124,8 @@ hi phpComment	    ctermfg=237	ctermbg=none	cterm=none
 hi phpDocComment	ctermfg=237	ctermbg=none	cterm=none
 hi phpDocTags     ctermfg=237 ctermbg=none  cterm=none
 hi phpDocParam    ctermfg=240 ctermbg=none  cterm=none
+hi phpType        ctermfg=179 ctermbg=none  cterm=none
+hi phpKeyword     ctermfg=110 ctermbg=none  cterm=none
 hi phpFunctions	  ctermfg=110	ctermbg=none	cterm=none
 hi phpSuperglobal ctermfg=250	ctermbg=none	cterm=none
 hi phpQuoteSingle ctermfg=250	ctermbg=none	cterm=none
