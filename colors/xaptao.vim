@@ -16,6 +16,8 @@ endif
 let g:colors_name="xaptao"
 
 " --------------------------------------------------------
+hi Function        ctermfg=110	ctermbg=none	cterm=none
+hi Identifier      ctermfg=144	ctermbg=none	cterm=none
 hi LineNr	   ctermfg=59	ctermbg=236	cterm=none
 hi CursorLineNr	   ctermfg=179	ctermbg=none	cterm=none
 " --------------------------------------------------------
@@ -46,10 +48,8 @@ hi Float           ctermfg=250	ctermbg=none	cterm=none
 " --------------------------------------------------------
 " Fold
 " --------------------------------------------------------
-hi FoldColumn      guifg=#465457 guibg=#000000
-hi Folded          guifg=#465457 guibg=#000000
-hi Function        ctermfg=110	ctermbg=none	cterm=none
-hi Identifier      ctermfg=246	ctermbg=none	cterm=none
+hi Folded          ctermfg=240  ctermbg=234   cterm=none
+
 hi Ignore          ctermfg=250	ctermbg=none	cterm=none
 hi IncSearch       ctermfg=250	ctermbg=none	cterm=none
 
@@ -127,6 +127,7 @@ hi phpDocParam    ctermfg=240 ctermbg=none  cterm=none
 hi phpType        ctermfg=179 ctermbg=none  cterm=none
 hi phpKeyword     ctermfg=110 ctermbg=none  cterm=none
 hi phpFunctions	  ctermfg=110	ctermbg=none	cterm=none
+hi phpIdentifier  ctermfg=144	ctermbg=none	cterm=none
 hi phpSuperglobal ctermfg=250	ctermbg=none	cterm=none
 hi phpQuoteSingle ctermfg=250	ctermbg=none	cterm=none
 hi phpQuoteDouble ctermfg=250	ctermbg=none	cterm=none
