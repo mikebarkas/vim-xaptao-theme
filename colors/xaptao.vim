@@ -17,11 +17,12 @@ let g:colors_name="xaptao"
 
 " --------------------------------------------------------
 hi Function        ctermfg=110	ctermbg=none	cterm=none
-hi Identifier      ctermfg=144	ctermbg=none	cterm=none
-hi LineNr	   ctermfg=59	ctermbg=236	cterm=none
+hi Identifier      ctermfg=247	ctermbg=none	cterm=none
+hi LineNr	         ctermfg=236	ctermbg=234	cterm=none
 hi CursorLineNr	   ctermfg=179	ctermbg=none	cterm=none
+hi Boolean         ctermfg=107	ctermbg=none	cterm=none
+
 " --------------------------------------------------------
-hi Boolean         ctermfg=167	ctermbg=none	cterm=none
 hi Character       ctermfg=250	ctermbg=none	cterm=none
 hi Number          ctermfg=167	ctermbg=none	cterm=none
 hi String          ctermfg=144	ctermbg=none	cterm=none
@@ -126,12 +127,16 @@ hi phpDocTags     ctermfg=237 ctermbg=none  cterm=none
 hi phpDocParam    ctermfg=240 ctermbg=none  cterm=none
 hi phpType        ctermfg=179 ctermbg=none  cterm=none
 hi phpKeyword     ctermfg=110 ctermbg=none  cterm=none
+hi phpFunction	  ctermfg=110	ctermbg=none	cterm=none
 hi phpFunctions	  ctermfg=110	ctermbg=none	cterm=none
-hi phpIdentifier  ctermfg=144	ctermbg=none	cterm=none
+hi phpVarSelector ctermfg=247 ctermbg=none  cterm=none
+hi phpIdentifier  ctermfg=247	ctermbg=none	cterm=none
+hi phpOperator    ctermfg=250 ctermbg=none  cterm=none
+hi link phpBoolean Boolean
+
 hi phpSuperglobal ctermfg=250	ctermbg=none	cterm=none
 hi phpQuoteSingle ctermfg=250	ctermbg=none	cterm=none
 hi phpQuoteDouble ctermfg=250	ctermbg=none	cterm=none
-hi phpBoolean	    ctermfg=250	ctermbg=none	cterm=none
 hi phpNull	      ctermfg=250	ctermbg=none	cterm=none
 hi phpArrayPair	  ctermfg=250	ctermbg=none	cterm=none
 hi phpOperator	  ctermfg=246	ctermbg=none	cterm=none
