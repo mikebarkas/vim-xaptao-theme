@@ -120,7 +120,10 @@ hi SpecialKey      guifg=#465457
 " --------------------------------------------------------
 " PHP
 " --------------------------------------------------------
-hi phpComment	    ctermfg=240	ctermbg=none	cterm=none
+hi phpComment	    ctermfg=237	ctermbg=none	cterm=none
+hi phpDocComment	ctermfg=237	ctermbg=none	cterm=none
+hi phpDocTags     ctermfg=237 ctermbg=none  cterm=none
+hi phpDocParam    ctermfg=240 ctermbg=none  cterm=none
 hi phpFunctions	  ctermfg=110	ctermbg=none	cterm=none
 hi phpSuperglobal ctermfg=250	ctermbg=none	cterm=none
 hi phpQuoteSingle ctermfg=250	ctermbg=none	cterm=none
