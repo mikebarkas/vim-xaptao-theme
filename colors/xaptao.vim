@@ -3,7 +3,7 @@
 " Author: Mike Barkas
 "
 "
-" Note:
+" Note: Color terminal only.
 "
 
 hi clear
