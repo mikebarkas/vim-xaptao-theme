@@ -16,7 +16,7 @@ endif
 let g:colors_name="xaptao"
 
 " --------------------------------------------------------
-hi Function        ctermfg=110	ctermbg=none	cterm=none
+hi Function        ctermfg=110  ctermbg=none	cterm=none
 hi Identifier      ctermfg=247	ctermbg=none	cterm=none
 hi LineNr	         ctermfg=236	ctermbg=234	cterm=none
 hi CursorLineNr	   ctermfg=179	ctermbg=none	cterm=none
@@ -32,6 +32,91 @@ hi Cursor          ctermfg=250	ctermbg=none	cterm=none
 hi Debug           ctermfg=250	ctermbg=none	cterm=none
 hi Define          ctermfg=075  ctermbg=NONE
 hi Delimiter       ctermfg=253  ctermbg=none  cterm=bold
+" ----
+
+hi SpecialKey      ctermfg=237  ctermbg=234
+hi NonText         ctermfg=240 ctermbg=233
+hi Directory      term=bold ctermfg=186
+hi ErrorMsg       term=standout ctermbg=88 guibg=#902020
+hi IncSearch      term=reverse cterm=reverse gui=reverse
+hi Search         term=reverse cterm=underline ctermfg=217 ctermbg=16 gui=underline guifg=#f0a0c0 guibg=#302028
+hi MoreMsg        term=bold ctermfg=121 gui=bold guifg=SeaGreen
+hi ModeMsg        term=bold cterm=bold gui=bold
+hi LineNr         term=underline ctermfg=59 ctermbg=233 guifg=#605958 guibg=#151515
+hi CursorLineNr   term=bold ctermfg=188 guifg=#ccc5c4
+hi Question       term=standout ctermfg=71 guifg=#65C254
+hi StatusLine     term=bold,reverse ctermfg=16 ctermbg=252 gui=italic guifg=#000000 guibg=#dddddd
+hi StatusLineNC   term=reverse ctermfg=231 ctermbg=235 gui=italic guifg=#ffffff guibg=#403c41
+hi VertSplit      term=reverse ctermfg=242 ctermbg=16 guifg=#777777 guibg=#403c41
+hi Title          term=bold cterm=bold ctermfg=71 gui=bold guifg=#70b950
+hi Visual         term=reverse ctermbg=237 guibg=#404040
+hi VisualNOS      term=bold,underline cterm=bold,underline gui=bold,underline
+hi WarningMsg     term=standout ctermfg=224 guifg=Red
+hi WildMenu       term=standout ctermfg=217 ctermbg=16 guifg=#f0a0c0 guibg=#302028
+hi Folded         term=standout ctermfg=145 ctermbg=236 gui=italic guifg=#a0a8b0 guibg=#384048
+hi FoldColumn     term=standout ctermfg=59 ctermbg=234 guifg=#535D66 guibg=#1f1f1f
+hi DiffAdd        term=bold ctermfg=193 ctermbg=22 guifg=#D2EBBE guibg=#437019
+hi DiffChange     term=bold ctermbg=24 guibg=#2B5B77
+hi DiffDelete     term=bold ctermfg=16 ctermbg=52 guifg=#40000A guibg=#700009
+hi DiffText       term=reverse cterm=reverse ctermfg=81 ctermbg=16 gui=reverse guifg=#8fbfdc guibg=#000000
+hi SignColumn     term=standout ctermfg=242 ctermbg=236 guifg=#777777 guibg=#333333
+hi Conceal        ctermfg=7 ctermbg=242 guifg=LightGrey guibg=DarkGrey
+hi SpellBad       term=reverse cterm=underline ctermbg=88 gui=underline guibg=#902020 guisp=Red
+hi SpellCap       term=reverse cterm=underline ctermbg=20 gui=underline guibg=#0000df guisp=Blue
+hi SpellRare      term=reverse cterm=underline ctermbg=53 gui=underline guibg=#540063 guisp=Magenta
+hi SpellLocal     term=underline cterm=underline ctermbg=23 gui=underline guibg=#2D7067 guisp=Cyan
+hi Pmenu          ctermfg=231 ctermbg=240 guifg=#ffffff guibg=#606060
+hi PmenuSel       ctermfg=232 ctermbg=254 guifg=#101010 guibg=#eeeeee
+hi PmenuSbar      ctermbg=248 guibg=Grey
+hi PmenuThumb     ctermbg=15 guibg=White
+hi TabLine        term=underline ctermfg=16 ctermbg=145 gui=italic guifg=#000000 guibg=#b0b8c0
+hi TabLineSel     term=bold cterm=bold ctermfg=16 ctermbg=254 gui=bold,italic guifg=#000000 guibg=#f0f0f0
+hi TabLineFill    term=reverse ctermfg=103 guifg=#9098a0
+hi CursorColumn   term=reverse ctermbg=234 guibg=#1c1c1c
+hi CursorLine     term=underline ctermbg=234 guibg=#1c1c1c
+hi ColorColumn    term=reverse ctermbg=16 guibg=#000000
+hi MatchParen     term=reverse cterm=bold ctermfg=231 ctermbg=60 gui=bold guifg=#ffffff guibg=#556779
+hi Error          term=reverse ctermfg=15 ctermbg=9 guifg=White guibg=Red
+hi Comment        term=bold ctermfg=244 gui=italic guifg=#888888
+hi Constant       term=underline ctermfg=167 guifg=#cf6a4c
+hi Special        term=bold ctermfg=107 guifg=#799d6a
+hi Identifier     term=underline ctermfg=183 guifg=#c6b6ee
+hi Statement      term=bold ctermfg=103 guifg=#8197bf
+hi PreProc        term=underline ctermfg=110 guifg=#8fbfdc
+hi Type           term=underline ctermfg=215 guifg=#ffb964
+hi Underlined     term=underline cterm=underline ctermfg=81 gui=underline guifg=#80a0ff
+hi Ignore         ctermfg=0 guifg=bg
+hi Todo           term=standout cterm=bold ctermfg=250 gui=bold guifg=#c7c7c7
+hi String         ctermfg=107 guifg=#99ad6a
+hi Character      links to Constant
+hi Number         links to Constant
+hi Boolean        links to Constant
+hi Float          links to Number
+hi Function       ctermfg=222 guifg=#fad07a
+hi Conditional    links to Statement
+hi Repeat         links to Statement
+hi Label          links to Statement
+hi Operator       links to Structure
+hi Keyword        links to Statement
+hi Exception      links to Statement
+hi Include        links to PreProc
+hi Define         links to PreProc
+hi Macro          links to PreProc
+hi PreCondit      links to PreProc
+hi StorageClass   ctermfg=179 guifg=#c59f6f
+hi Structure      ctermfg=110 guifg=#8fbfdc
+hi Typedef        links to Type
+hi Tag            links to Special
+hi SpecialChar    links to Special
+hi Delimiter      ctermfg=66 guifg=#668799
+hi SpecialComment links to Special
+hi Debug          links to Special
+hi ExtraWhitespace cleared
+hi Normal         ctermfg=188 ctermbg=233
+hi Cursor         ctermfg=232 ctermbg=153
+hi StringDelimiter ctermfg=58
+
+
 " --------------------------------------------------------
 " Diff
 " --------------------------------------------------------
