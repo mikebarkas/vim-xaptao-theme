@@ -412,3 +412,50 @@ hi link sqlString     String
 hi link sqlNumber     Number
 hi link sqlTodo       Todo
 hi link sqlComment    Comment
+
+
+" --------------------------------------------------------
+" Directory
+" --------------------------------------------------------
+hi link netrwHide      netrwComment
+hi link netrwSortBy    cleared
+hi link netrwSortSeq   cleared
+hi link netrwQuickHelp cleared
+hi link netrwVersion   Identifier
+hi link netrwCopyTgt   cleared
+hi link netrwDir       Directory
+hi link netrwSymLink   Question
+hi link netrwExe       PreProc
+hi link netrwPlain     cleared
+hi link netrwClassify  Function
+hi link netrwSpecial   cleared
+hi link netrwDateSep   Delimiter
+hi link netrwTime      cleared
+hi link netrwSizeDate  cleared
+hi link netrwTreeBarSpace cleared
+hi link netrwTreeBar   Special
+hi link netrwTimeSep   netrwDateSep
+hi link netrwComment   Comment
+hi link netrwHidePat   Statement
+hi link netrwSlash     cleared
+hi link netrwHideSep   netrwComment
+hi link netrwList      Statement
+hi link netrwComma     netrwComment
+hi link netrwHelpCmd   Function
+hi link netrwQHTopic   Number
+hi link netrwCmdSep    Delimiter
+hi link netrwCmdNote   cleared
+hi link netrwMarkFile  TabLineSel
+hi link netrwBak       NonText
+hi link netrwCompress  Folded
+hi link netrwCoreDump  WarningMsg
+hi link netrwData      DiffChange
+hi link netrwHdr       netrwPlain
+hi link netrwLex       netrwPlain
+hi link netrwLib       DiffChange
+hi link netrwMakefile  DiffChange
+hi link netrwObj       Folded
+hi link netrwTilde     Folded
+hi link netrwTmp       Folded
+hi link netrwTags      Folded
+hi link netrwYacc      netrwPlain
