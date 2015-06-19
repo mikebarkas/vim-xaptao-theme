@@ -1,10 +1,13 @@
+" --------------------------------------------------------
+" Xaptao Theme
+" --------------------------------------------------------
 " Vim color file
 "
 " Author: Mike Barkas
 "
-"
 " Note: Color terminal only.
 "
+" --------------------------------------------------------
 
 hi clear
 set background=dark
@@ -22,7 +25,6 @@ hi Identifier      ctermfg=247	ctermbg=none	cterm=none
 hi LineNr	         ctermfg=236	ctermbg=234	cterm=none
 hi CursorLineNr	   ctermfg=179	ctermbg=none	cterm=none
 hi Boolean         ctermfg=107	ctermbg=none	cterm=none
-
 " --------------------------------------------------------
 hi Character       ctermfg=250	ctermbg=none	cterm=none
 hi Number          ctermfg=167	ctermbg=none	cterm=none
@@ -115,7 +117,6 @@ hi link Debug          Special
 hi link ExtraWhitespace cleared
 hi Cursor         ctermfg=232 ctermbg=153
 hi StringDelimiter ctermfg=58
-
 
 " --------------------------------------------------------
 " Diff
@@ -398,6 +399,7 @@ hi link  jsArgsObj      Special
 hi link  jsCharacter    Character
 hi link  jsBranch       Conditional
 hi link  jsError        Error
+
 " --------------------------------------------------------
 " SQL
 " --------------------------------------------------------
