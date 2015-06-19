@@ -16,7 +16,7 @@ endif
 let g:colors_name="xaptao"
 
 " --------------------------------------------------------
-hi Comment         ctermfg=240	ctermbg=none	cterm=none
+hi Normal          ctermfg=253   ctermbg=NONE
 hi Function        ctermfg=110  ctermbg=none	cterm=none
 hi Identifier      ctermfg=247	ctermbg=none	cterm=none
 hi LineNr	         ctermfg=236	ctermbg=234	cterm=none
@@ -197,7 +197,7 @@ hi WildMenu        guifg=#66D9EF guibg=#000000
 hi TabLineFill     guifg=#1B1D1E guibg=#1B1D1E
 hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 
-hi Normal          ctermfg=253   ctermbg=NONE
+hi Comment         ctermfg=240	ctermbg=none	cterm=none
 hi NonText         guifg=#465457
 
 " --------------------------------------------------------
