@@ -295,3 +295,16 @@ hi phpDocTags     xxx cleared
 hi phpDocTodo     xxx links to Todo
 hi phpBaselib     xxx links to Function
 hi phpIdentifierConst xxx links to Delimiter
+
+" --------------------------------------------------------
+" SQL
+" --------------------------------------------------------
+hi link sqlSpecial    Special
+hi link sqlKeyword    sqlSpecial
+hi link sqlOperator   sqlStatement
+hi link sqlStatement  Statement
+hi link sqlType       Type
+hi link sqlString     String
+hi link sqlNumber     Number
+hi link sqlTodo       Todo
+hi link sqlComment    Comment
