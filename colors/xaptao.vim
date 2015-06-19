@@ -16,6 +16,7 @@ endif
 let g:colors_name="xaptao"
 
 " --------------------------------------------------------
+hi Comment         ctermfg=240	ctermbg=none	cterm=none
 hi Function        ctermfg=110  ctermbg=none	cterm=none
 hi Identifier      ctermfg=247	ctermbg=none	cterm=none
 hi LineNr	         ctermfg=236	ctermbg=234	cterm=none
@@ -112,7 +113,6 @@ hi Delimiter      ctermfg=66 guifg=#668799
 hi SpecialComment links to Special
 hi Debug          links to Special
 hi ExtraWhitespace cleared
-hi Normal         ctermfg=188 ctermbg=233
 hi Cursor         ctermfg=232 ctermbg=153
 hi StringDelimiter ctermfg=58
 
@@ -198,7 +198,6 @@ hi TabLineFill     guifg=#1B1D1E guibg=#1B1D1E
 hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 
 hi Normal          ctermfg=253   ctermbg=NONE
-hi Comment         ctermfg=240	ctermbg=none	cterm=none
 hi NonText         guifg=#465457
 
 " --------------------------------------------------------
