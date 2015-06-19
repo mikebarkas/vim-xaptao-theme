@@ -226,75 +226,75 @@ hi phpOperator	  ctermfg=246	ctermbg=none	cterm=none
 hi phpRelation	  ctermfg=250	ctermbg=none	cterm=none
 hi phpVarSelector ctermfg=250	ctermbg=none	cterm=none
 " ------
-hi phpEnvVar      xxx links to Identifier
-hi phpIntVar      xxx links to Identifier
-hi phpCoreConstant xxx links to Constant
-hi phpConstant    xxx links to Constant
-hi phpMethods     xxx links to Function
-hi phpConditional xxx links to Conditional
-hi phpRepeat      xxx links to Repeat
-hi phpLabel       xxx links to Label
-hi phpStatement   xxx links to Statement
-hi phpKeyword     xxx cleared
-hi phpType        xxx cleared
-hi phpStructure   xxx links to Structure
-hi phpMemberSelector xxx links to Structure
-hi phpIdentifier  xxx cleared
-hi phpParent      xxx links to Delimiter
-hi phpIdentifierSimply xxx links to Identifier
-hi phpIdentifierComplexP xxx cleared
-hi phpIdentifierComplex xxx cleared
-hi phpBrackets    xxx links to Delimiter
-hi phpInterpSimpleError xxx links to Error
-hi phpInterpBogusDollarCurley xxx links to Error
-hi phpinterpSimpleBracketsInner xxx links to String
-hi phpInterpSimpleBrackets xxx cleared
-hi phpInterpSimple xxx cleared
-hi phpInterpVarname xxx links to Identifier
-hi phpInterpMethodName xxx cleared
-hi phpInterpSimpleCurly xxx links to Delimiter
-hi phpInterpDollarCurley1Helper xxx cleared
-hi phpInterpDollarCurly1 xxx links to Error
-hi phpInterpDollarCurley2Helper xxx cleared
-hi phpInterpDollarCurly2 xxx links to Error
-hi phpInterpComplex xxx cleared
-hi phpMethodsVar  xxx cleared
-hi phpInclude     xxx links to Include
-hi phpDefine      xxx links to Define
-hi phpNumber      xxx links to Number
-hi phpFloat       xxx links to Float
-hi phpBackslashSequences xxx links to SpecialChar
-hi phpOctalError  xxx links to Error
-hi phpBackslashDoubleQuote xxx links to SpecialChar
-hi phpBackslashSingleQuote xxx links to SpecialChar
-hi phpTodo        xxx links to Todo
-hi phpComment     xxx cleared
-hi phpStringDouble xxx links to String
-hi phpBacktick    xxx links to String
-hi phpStringSingle xxx links to String
-hi phpHereDoc     xxx cleared
-hi phpNowDoc      xxx cleared
-hi phpException   xxx links to Exception
-hi phpParentError xxx links to Error
-hi phpStorageClass xxx links to StorageClass
-hi phpFoldFunction xxx cleared
-hi phpFoldClass   xxx cleared
-hi phpFoldInterface xxx cleared
-hi phpFoldTry     xxx cleared
-hi phpFoldCatch   xxx cleared
-hi phpSCKeyword   xxx links to StorageClass
-hi phpFCKeyword   xxx links to Define
-hi phpFoldHtmlInside xxx cleared
-hi phpSpecialFunction xxx links to phpOperator
-hi phpClasses     xxx links to phpFunctions
-hi phpInterfaces  xxx links to phpConstant
-hi phpAssignByRef xxx links to Type
-hi phpComparison  xxx links to Statement
-hi phpDocCustomTags xxx links to Type
-hi phpDocTags     xxx cleared
-hi phpDocTodo     xxx links to Todo
-hi phpBaselib     xxx links to Function
-hi phpIdentifierConst xxx links to Delimiter
+hi phpEnvVar      Identifier
+hi phpIntVar      Identifier
+hi phpCoreConstant Constant
+hi phpConstant    Constant
+hi phpMethods     Function
+hi phpConditional Conditional
+hi phpRepeat      Repeat
+hi phpLabel       Label
+hi phpStatement   Statement
+hi phpKeyword     cleared
+hi phpType        cleared
+hi phpStructure   Structure
+hi phpMemberSelector Structure
+hi phpIdentifier  cleared
+hi phpParent      Delimiter
+hi phpIdentifierSimply Identifier
+hi phpIdentifierComplexP cleared
+hi phpIdentifierComplex cleared
+hi phpBrackets     Delimiter
+hi phpInterpSimpleError Error
+hi phpInterpBogusDollarCurley Error
+hi phpinterpSimpleBracketsInner String
+hi phpInterpSimpleBrackets cleared
+hi phpInterpSimple cleared
+hi phpInterpVarname Identifier
+hi phpInterpMethodName cleared
+hi phpInterpSimpleCurly Delimiter
+hi phpInterpDollarCurley1Helper cleared
+hi phpInterpDollarCurly1 Error
+hi phpInterpDollarCurley2Helper cleared
+hi phpInterpDollarCurly2 Error
+hi phpInterpComplex cleared
+hi phpMethodsVar   cleared
+hi phpInclude     Include
+hi phpDefine      Define
+hi phpNumber      Number
+hi phpFloat       Float
+hi phpBackslashSequences SpecialChar
+hi phpOctalError  Error
+hi phpBackslashDoubleQuote SpecialChar
+hi phpBackslashSingleQuote SpecialChar
+hi phpTodo        Todo
+hi phpComment     cleared
+hi phpStringDouble String
+hi phpBacktick     String
+hi phpStringSingle String
+hi phpHereDoc     cleared
+hi phpNowDoc      cleared
+hi phpException   Exception
+hi phpParentError Error
+hi phpStorageClass StorageClass
+hi phpFoldFunction cleared
+hi phpFoldClass   cleared
+hi phpFoldInterface cleared
+hi phpFoldTry     cleared
+hi phpFoldCatch   cleared
+hi phpSCKeyword   StorageClass
+hi phpFCKeyword   Define
+hi phpFoldHtmlInside cleared
+hi phpSpecialFunction phpOperator
+hi phpClasses     phpFunctions
+hi phpInterfaces  phpConstant
+hi phpAssignByRef Type
+hi phpComparison  Statement
+hi phpDocCustomTags Type
+hi phpDocTags    cleared
+hi phpDocTodo     Todo
+hi phpBaselib     Function
+hi phpIdentifierConst Delimiter
 
 " --------------------------------------------------------
 "  JS
