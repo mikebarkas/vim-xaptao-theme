@@ -225,75 +225,75 @@ hi phpOperator	  ctermfg=246	ctermbg=none	cterm=none
 hi phpRelation	  ctermfg=250	ctermbg=none	cterm=none
 hi phpVarSelector ctermfg=250	ctermbg=none	cterm=none
 " ------
-hi phpEnvVar      Identifier
-hi phpIntVar      Identifier
-hi phpCoreConstant Constant
-hi phpConstant    Constant
-hi phpMethods     Function
-hi phpConditional Conditional
-hi phpRepeat      Repeat
-hi phpLabel       Label
-hi phpStatement   Statement
-hi phpKeyword     cleared
-hi phpType        cleared
-hi phpStructure   Structure
-hi phpMemberSelector Structure
-hi phpIdentifier  cleared
-hi phpParent      Delimiter
-hi phpIdentifierSimply Identifier
-hi phpIdentifierComplexP cleared
-hi phpIdentifierComplex cleared
-hi phpBrackets     Delimiter
-hi phpInterpSimpleError Error
-hi phpInterpBogusDollarCurley Error
-hi phpinterpSimpleBracketsInner String
-hi phpInterpSimpleBrackets cleared
-hi phpInterpSimple cleared
-hi phpInterpVarname Identifier
-hi phpInterpMethodName cleared
-hi phpInterpSimpleCurly Delimiter
-hi phpInterpDollarCurley1Helper cleared
-hi phpInterpDollarCurly1 Error
-hi phpInterpDollarCurley2Helper cleared
-hi phpInterpDollarCurly2 Error
-hi phpInterpComplex cleared
-hi phpMethodsVar   cleared
-hi phpInclude     Include
-hi phpDefine      Define
-hi phpNumber      Number
-hi phpFloat       Float
-hi phpBackslashSequences SpecialChar
-hi phpOctalError  Error
-hi phpBackslashDoubleQuote SpecialChar
-hi phpBackslashSingleQuote SpecialChar
-hi phpTodo        Todo
-hi phpComment     cleared
-hi phpStringDouble String
-hi phpBacktick     String
-hi phpStringSingle String
-hi phpHereDoc     cleared
-hi phpNowDoc      cleared
-hi phpException   Exception
-hi phpParentError Error
-hi phpStorageClass StorageClass
-hi phpFoldFunction cleared
-hi phpFoldClass   cleared
-hi phpFoldInterface cleared
-hi phpFoldTry     cleared
-hi phpFoldCatch   cleared
-hi phpSCKeyword   StorageClass
-hi phpFCKeyword   Define
-hi phpFoldHtmlInside cleared
-hi phpSpecialFunction phpOperator
-hi phpClasses     phpFunctions
-hi phpInterfaces  phpConstant
-hi phpAssignByRef Type
-hi phpComparison  Statement
-hi phpDocCustomTags Type
-hi phpDocTags    cleared
-hi phpDocTodo     Todo
-hi phpBaselib     Function
-hi phpIdentifierConst Delimiter
+hi link phpEnvVar      Identifier
+hi link phpIntVar      Identifier
+hi link phpCoreConstant Constant
+hi link phpConstant    Constant
+hi link phpMethods     Function
+hi link phpConditional Conditional
+hi link phpRepeat      Repeat
+hi link phpLabel       Label
+hi link phpStatement   Statement
+hi link phpKeyword     cleared
+hi link phpType        cleared
+hi link phpStructure   Structure
+hi link phpMemberSelector Structure
+hi link phpIdentifier  cleared
+hi link phpParent      Delimiter
+hi link phpIdentifierSimply Identifier
+hi link phpIdentifierComplexP cleared
+hi link phpIdentifierComplex cleared
+hi link phpBrackets     Delimiter
+hi link phpInterpSimpleError Error
+hi link phpInterpBogusDollarCurley Error
+hi link phpinterpSimpleBracketsInner String
+hi link phpInterpSimpleBrackets cleared
+hi link phpInterpSimple cleared
+hi link phpInterpVarname Identifier
+hi link phpInterpMethodName cleared
+hi link phpInterpSimpleCurly Delimiter
+hi link phpInterpDollarCurley1Helper cleared
+hi link phpInterpDollarCurly1 Error
+hi link phpInterpDollarCurley2Helper cleared
+hi link phpInterpDollarCurly2 Error
+hi link phpInterpComplex cleared
+hi link phpMethodsVar   cleared
+hi link phpInclude     Include
+hi link phpDefine      Define
+hi link phpNumber      Number
+hi link phpFloat       Float
+hi link phpBackslashSequences SpecialChar
+hi link phpOctalError  Error
+hi link phpBackslashDoubleQuote SpecialChar
+hi link phpBackslashSingleQuote SpecialChar
+hi link phpTodo        Todo
+hi link phpComment     cleared
+hi link phpStringDouble String
+hi link phpBacktick     String
+hi link phpStringSingle String
+hi link phpHereDoc     cleared
+hi link phpNowDoc      cleared
+hi link phpException   Exception
+hi link phpParentError Error
+hi link phpStorageClass StorageClass
+hi link phpFoldFunction cleared
+hi link phpFoldClass   cleared
+hi link phpFoldInterface cleared
+hi link phpFoldTry     cleared
+hi link phpFoldCatch   cleared
+hi link phpSCKeyword   StorageClass
+hi link phpFCKeyword   Define
+hi link phpFoldHtmlInside cleared
+hi link phpSpecialFunction phpOperator
+hi link phpClasses     phpFunctions
+hi link phpInterfaces  phpConstant
+hi link phpAssignByRef Type
+hi link phpComparison  Statement
+hi link phpDocCustomTags Type
+hi link phpDocTags    cleared
+hi link phpDocTodo     Todo
+hi link phpBaselib     Function
+hi link phpIdentifierConst Delimiter
 
 " --------------------------------------------------------
 "  JS
