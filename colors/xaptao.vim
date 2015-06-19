@@ -34,7 +34,7 @@ hi Define          ctermfg=075  ctermbg=NONE
 hi Delimiter       ctermfg=253  ctermbg=none  cterm=bold
 " ----
 
-hi SpecialKey      ctermfg=237  ctermbg=234
+hi SpecialKey      ctermfg=250  ctermbg=none  cterm=none
 hi NonText         ctermfg=240 ctermbg=233
 hi Directory      term=bold ctermfg=186
 hi ErrorMsg       term=standout ctermbg=88 guibg=#902020
@@ -142,7 +142,6 @@ hi IncSearch       ctermfg=250	ctermbg=none	cterm=none
 hi Keyword         ctermfg=250	ctermbg=none	cterm=none
 hi Label           ctermfg=250	ctermbg=none	cterm=none
 hi Macro           ctermfg=250	ctermbg=none	cterm=none
-hi SpecialKey      ctermfg=250	ctermbg=none	cterm=none
 
 hi MatchParen      ctermfg=250	ctermbg=none	cterm=none
 hi ModeMsg         ctermfg=250	ctermbg=none	cterm=none
@@ -201,7 +200,6 @@ hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 hi Normal          ctermfg=253   ctermbg=NONE
 hi Comment         ctermfg=240	ctermbg=none	cterm=none
 hi NonText         guifg=#465457
-hi SpecialKey      guifg=#465457
 
 " --------------------------------------------------------
 " PHP
@@ -227,3 +225,73 @@ hi phpArrayPair	  ctermfg=250	ctermbg=none	cterm=none
 hi phpOperator	  ctermfg=246	ctermbg=none	cterm=none
 hi phpRelation	  ctermfg=250	ctermbg=none	cterm=none
 hi phpVarSelector ctermfg=250	ctermbg=none	cterm=none
+" ------
+hi phpEnvVar      xxx links to Identifier
+hi phpIntVar      xxx links to Identifier
+hi phpCoreConstant xxx links to Constant
+hi phpConstant    xxx links to Constant
+hi phpMethods     xxx links to Function
+hi phpConditional xxx links to Conditional
+hi phpRepeat      xxx links to Repeat
+hi phpLabel       xxx links to Label
+hi phpStatement   xxx links to Statement
+hi phpKeyword     xxx cleared
+hi phpType        xxx cleared
+hi phpStructure   xxx links to Structure
+hi phpMemberSelector xxx links to Structure
+hi phpIdentifier  xxx cleared
+hi phpParent      xxx links to Delimiter
+hi phpIdentifierSimply xxx links to Identifier
+hi phpIdentifierComplexP xxx cleared
+hi phpIdentifierComplex xxx cleared
+hi phpBrackets    xxx links to Delimiter
+hi phpInterpSimpleError xxx links to Error
+hi phpInterpBogusDollarCurley xxx links to Error
+hi phpinterpSimpleBracketsInner xxx links to String
+hi phpInterpSimpleBrackets xxx cleared
+hi phpInterpSimple xxx cleared
+hi phpInterpVarname xxx links to Identifier
+hi phpInterpMethodName xxx cleared
+hi phpInterpSimpleCurly xxx links to Delimiter
+hi phpInterpDollarCurley1Helper xxx cleared
+hi phpInterpDollarCurly1 xxx links to Error
+hi phpInterpDollarCurley2Helper xxx cleared
+hi phpInterpDollarCurly2 xxx links to Error
+hi phpInterpComplex xxx cleared
+hi phpMethodsVar  xxx cleared
+hi phpInclude     xxx links to Include
+hi phpDefine      xxx links to Define
+hi phpNumber      xxx links to Number
+hi phpFloat       xxx links to Float
+hi phpBackslashSequences xxx links to SpecialChar
+hi phpOctalError  xxx links to Error
+hi phpBackslashDoubleQuote xxx links to SpecialChar
+hi phpBackslashSingleQuote xxx links to SpecialChar
+hi phpTodo        xxx links to Todo
+hi phpComment     xxx cleared
+hi phpStringDouble xxx links to String
+hi phpBacktick    xxx links to String
+hi phpStringSingle xxx links to String
+hi phpHereDoc     xxx cleared
+hi phpNowDoc      xxx cleared
+hi phpException   xxx links to Exception
+hi phpParentError xxx links to Error
+hi phpStorageClass xxx links to StorageClass
+hi phpFoldFunction xxx cleared
+hi phpFoldClass   xxx cleared
+hi phpFoldInterface xxx cleared
+hi phpFoldTry     xxx cleared
+hi phpFoldCatch   xxx cleared
+hi phpSCKeyword   xxx links to StorageClass
+hi phpFCKeyword   xxx links to Define
+hi phpFoldHtmlInside xxx cleared
+hi phpSpecialFunction xxx links to phpOperator
+hi phpClasses     xxx links to phpFunctions
+hi phpInterfaces  xxx links to phpConstant
+hi phpAssignByRef xxx links to Type
+hi phpComparison  xxx links to Statement
+hi phpDocCustomTags xxx links to Type
+hi phpDocTags     xxx cleared
+hi phpDocTodo     xxx links to Todo
+hi phpBaselib     xxx links to Function
+hi phpIdentifierConst xxx links to Delimiter
