@@ -23,7 +23,6 @@ hi Normal          ctermfg=253   ctermbg=NONE
 hi Function        ctermfg=110  ctermbg=none	cterm=none
 hi Identifier      ctermfg=247	ctermbg=none	cterm=none
 hi LineNr	         ctermfg=236	ctermbg=234	cterm=none
-hi CursorLineNr	   ctermfg=179	ctermbg=none	cterm=none
 hi Boolean         ctermfg=107	ctermbg=none	cterm=none
 " --------------------------------------------------------
 hi Character       ctermfg=250	ctermbg=none	cterm=none
@@ -31,12 +30,19 @@ hi Number          ctermfg=167	ctermbg=none	cterm=none
 hi String          ctermfg=144	ctermbg=none	cterm=none
 hi Conditional     ctermfg=250	ctermbg=none	cterm=none
 hi Constant        ctermfg=250	ctermbg=none	cterm=none
-hi Cursor          ctermfg=250	ctermbg=none	cterm=none
 hi Debug           ctermfg=250	ctermbg=none	cterm=none
 hi Define          ctermfg=075  ctermbg=NONE
 hi Delimiter       ctermfg=253  ctermbg=none  cterm=bold
 hi Comment         ctermfg=238	ctermbg=none	cterm=none
 " ----
+
+" --------------------------------------------------------
+"  Cursor
+" --------------------------------------------------------
+hi Cursor          ctermfg=250	ctermbg=none	cterm=none
+hi CursorLineNr	   ctermfg=222	ctermbg=none	cterm=bold
+hi CursorColumn    ctermfg=none ctermbg=none	cterm=none
+hi CursorLine      ctermfg=none ctermbg=none	cterm=none
 
 hi SpecialKey      ctermfg=250  ctermbg=none  cterm=none
 hi NonText         ctermfg=240 ctermbg=233
@@ -47,7 +53,6 @@ hi Search         cterm=underline ctermfg=219 ctermbg=16
 hi MoreMsg        ctermfg=122
 hi ModeMsg        cterm=bold
 hi LineNr         ctermfg=59 ctermbg=233
-hi CursorLineNr   ctermfg=188
 hi Question       ctermfg=71
 hi StatusLine     ctermfg=16 ctermbg=252
 hi StatusLineNC   ctermfg=231 ctermbg=235
@@ -76,8 +81,6 @@ hi PmenuThumb     ctermbg=15
 hi TabLine        ctermfg=16 ctermbg=145
 hi TabLineSel     cterm=bold ctermfg=16 ctermbg=254
 hi TabLineFill    ctermfg=103
-hi CursorColumn   ctermbg=234
-hi CursorLine     ctermbg=234
 hi ColorColumn    ctermbg=16
 hi MatchParen     cterm=bold ctermfg=231 ctermbg=60
 hi Error          ctermfg=15 ctermbg=9
@@ -115,7 +118,6 @@ hi Delimiter      ctermfg=66
 hi link SpecialComment Special
 hi link Debug          Special
 hi link ExtraWhitespace cleared
-hi Cursor         ctermfg=232 ctermbg=153
 hi StringDelimiter ctermfg=58
 
 " --------------------------------------------------------
