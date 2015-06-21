@@ -35,7 +35,7 @@ hi Cursor          ctermfg=250	ctermbg=none	cterm=none
 hi Debug           ctermfg=250	ctermbg=none	cterm=none
 hi Define          ctermfg=075  ctermbg=NONE
 hi Delimiter       ctermfg=253  ctermbg=none  cterm=bold
-hi Comment         ctermfg=240	ctermbg=none	cterm=none
+hi Comment         ctermfg=238	ctermbg=none	cterm=none
 " ----
 
 hi SpecialKey      ctermfg=250  ctermbg=none  cterm=none
@@ -89,7 +89,7 @@ hi PreProc        ctermfg=110
 hi Type           ctermfg=215
 hi Underlined     cterm=underline ctermfg=81
 hi Ignore         ctermfg=0
-hi Todo           ctermfg=250 ctermbg=none  cterm=none
+hi Todo           ctermfg=242 ctermbg=none  cterm=none
 hi String         ctermfg=107
 hi link  Character      Constant
 hi link  Number         Constant
@@ -202,9 +202,9 @@ hi NonText         guifg=#465457
 " --------------------------------------------------------
 " PHP
 " --------------------------------------------------------
-hi phpComment	    ctermfg=237	ctermbg=none	cterm=none
-hi phpDocComment	ctermfg=237	ctermbg=none	cterm=none
-hi phpDocTags     ctermfg=237 ctermbg=none  cterm=none
+hi phpComment	    ctermfg=238	ctermbg=none	cterm=none
+hi phpDocComment	ctermfg=238	ctermbg=none	cterm=none
+hi phpDocTags     ctermfg=238 ctermbg=none  cterm=none
 hi phpDocParam    ctermfg=240 ctermbg=none  cterm=none
 hi phpType        ctermfg=179 ctermbg=none  cterm=none
 hi phpKeyword     ctermfg=110 ctermbg=none  cterm=none
