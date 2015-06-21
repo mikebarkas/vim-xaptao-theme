@@ -89,7 +89,7 @@ hi PreProc        ctermfg=110
 hi Type           ctermfg=215
 hi Underlined     cterm=underline ctermfg=81
 hi Ignore         ctermfg=0
-hi Todo           cterm=bold ctermfg=250
+hi Todo           ctermfg=250 ctermbg=none  cterm=none
 hi String         ctermfg=107
 hi link  Character      Constant
 hi link  Number         Constant
@@ -183,7 +183,6 @@ hi StorageClass    guifg=#FD971F               gui=italic
 hi Structure       guifg=#66D9EF
 hi Tag             guifg=#F92672               gui=italic
 hi Title           ctermfg=024
-hi Todo            guifg=#FFFFFF guibg=bg      gui=bold
 
 hi Typedef         guifg=#66D9EF
 hi Type            ctermfg=215	ctermbg=none	cterm=none
