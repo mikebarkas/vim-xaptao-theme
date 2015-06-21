@@ -287,7 +287,7 @@ hi link phpClasses     phpFunctions
 hi link phpInterfaces  phpConstant
 hi link phpAssignByRef Type
 hi link phpComparison  Statement
-hi link phpDocCustomTags Type
+hi link phpDocCustomTags Todo
 hi link phpDocTags    cleared
 hi link phpDocTodo     Todo
 hi link phpBaselib     Function
