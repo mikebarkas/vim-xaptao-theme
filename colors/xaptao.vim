@@ -35,6 +35,7 @@ hi Cursor          ctermfg=250	ctermbg=none	cterm=none
 hi Debug           ctermfg=250	ctermbg=none	cterm=none
 hi Define          ctermfg=075  ctermbg=NONE
 hi Delimiter       ctermfg=253  ctermbg=none  cterm=bold
+hi Comment         ctermfg=240	ctermbg=none	cterm=none
 " ----
 
 hi SpecialKey      ctermfg=250  ctermbg=none  cterm=none
@@ -80,7 +81,6 @@ hi CursorLine     ctermbg=234
 hi ColorColumn    ctermbg=16
 hi MatchParen     cterm=bold ctermfg=231 ctermbg=60
 hi Error          ctermfg=15 ctermbg=9
-hi Comment        ctermfg=244
 hi Constant       ctermfg=167
 hi Special        ctermfg=107
 hi Identifier     ctermfg=183
@@ -198,7 +198,6 @@ hi WildMenu        guifg=#66D9EF guibg=#000000
 hi TabLineFill     guifg=#1B1D1E guibg=#1B1D1E
 hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 
-hi Comment         ctermfg=240	ctermbg=none	cterm=none
 hi NonText         guifg=#465457
 
 " --------------------------------------------------------
@@ -268,7 +267,6 @@ hi link phpOctalError  Error
 hi link phpBackslashDoubleQuote SpecialChar
 hi link phpBackslashSingleQuote SpecialChar
 hi link phpTodo        Todo
-hi link phpComment     cleared
 hi link phpStringDouble String
 hi link phpBacktick     String
 hi link phpStringSingle String
