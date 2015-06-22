@@ -518,4 +518,4 @@ hi airline_c_to_airline_x ctermfg=233 ctermbg=233
 hi airline_x_to_airline_y ctermfg=236 ctermbg=233
 hi airline_y_to_airline_z ctermfg=25 ctermbg=236
 hi airline_z_to_airline_warning ctermfg=166 ctermbg=25
-hi airline_c1_inactive cleared
+" hi airline_c1_inactive cleared
