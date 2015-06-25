@@ -519,7 +519,6 @@ hi airline_x_to_airline_y ctermfg=236 ctermbg=233
 hi airline_y_to_airline_z ctermfg=25 ctermbg=236
 hi airline_z_to_airline_warning ctermfg=166 ctermbg=25
 " hi airline_c1_inactive cleared
-
 hi airline_c_to_airline_y ctermfg=236 ctermbg=233
 hi airline_tabfill_to_airline_tabfill ctermfg=233 ctermbg=233
 hi airline_tabfill_to_airline_tabtype ctermfg=52 ctermbg=233
@@ -552,9 +551,109 @@ hi airline_tabhid_to_airline_tabsel_inactive ctermfg=233 ctermbg=233
 hi airline_y_to_airline_z_inactive ctermfg=234 ctermbg=234
 hi airline_b_to_airline_c_inactive ctermfg=234 ctermbg=234
 hi airline_c4_inactive ctermfg=237 ctermbg=234
-hi airline_tabfill_to_airline_tabtype_bold c ctermfg=52 ctermbg=233
+hi airline_tabfill_to_airline_tabtype_bold cterm=bold ctermfg=52 ctermbg=233
 hi airline_tabfill_to_airline_tabtype_red ctermfg=167 ctermbg=233
-hi airline_tabfill_to_airline_tabfill_bold  c ctermfg=233 ctermbg=233
+hi airline_tabfill_to_airline_tabfill_bold  cterm=bold ctermfg=233 ctermbg=233
 hi airline_tabfill_to_airline_tabfill_red ctermfg=167 ctermbg=233
-hi airline_c_to_airline_y_bold  c ctermfg=236 ctermbg=233
+hi airline_c_to_airline_y_bold  cterm=bold ctermfg=236 ctermbg=233
 hi airline_c_to_airline_y_red ctermfg=167 ctermbg=233
+hi airline_c4_to_airline_x ctermfg=233 ctermbg=233
+hi airline_tabhid_to_airline_tab ctermfg=233 ctermbg=236
+hi airline_tab_to_airline_tabfill ctermfg=236 ctermbg=233
+hi airline_tabhid_to_airline_tabsel_bold  cterm=bold ctermfg=233 ctermbg=25 
+hi airline_tabhid_to_airline_tabsel_red ctermfg=167 ctermbg=25
+hi airline_tabsel_to_airline_tabfill_bold  cterm=bold ctermfg=25 ctermbg=233 
+hi airline_tabsel_to_airline_tabfill_red ctermfg=167 ctermbg=233
+hi airline_c2_to_airline_x_bold  cterm=bold ctermfg=233 ctermbg=233 
+hi airline_c2_to_airline_x_red ctermfg=167 ctermbg=233
+hi airline_tabhid_to_airline_tabsel_inactive_inactive ctermfg=233 ctermbg=233
+hi airline_tabhid_to_airline_tabsel_inactive_inactive_bold  cterm=bold ctermfg=233 ctermbg=233 
+hi airline_tabhid_to_airline_tabsel_inactive_inactive_red ctermfg=167 ctermbg=233
+hi airline_tabsel_to_airline_tabfill_inactive_inactive ctermfg=233 ctermbg=233
+hi airline_tabsel_to_airline_tabfill_inactive_inactive_bold  cterm=bold ctermfg=233 ctermbg=233 
+hi airline_tabsel_to_airline_tabfill_inactive_inactive_red ctermfg=167 ctermbg=233
+hi airline_c_to_airline_x_inactive_inactive ctermfg=234 ctermbg=234
+hi airline_c_to_airline_x_inactive_inactive_bold  cterm=bold ctermfg=234 ctermbg=234 
+hi airline_c_to_airline_x_inactive_inactive_red ctermfg=167 ctermbg=234
+hi airline_c2_to_airline_x_inactive_inactive ctermfg=234 ctermbg=234
+hi airline_c2_to_airline_x_inactive_inactive_bold  cterm=bold ctermfg=234 ctermbg=234 
+hi airline_c2_to_airline_x_inactive_inactive_red ctermfg=167 ctermbg=234
+hi airline_a_to_airline_b_inactive_inactive ctermfg=234 ctermbg=234
+hi airline_a_to_airline_b_inactive_inactive_bold  cterm=bold ctermfg=234 ctermbg=234 
+hi airline_a_to_airline_b_inactive_inactive_red ctermfg=167 ctermbg=234
+hi airline_z_to_airline_warning_inactive_inactive ctermfg=166 ctermbg=234
+hi airline_z_to_airline_warning_inactive_inactive_bold  cterm=bold ctermfg=166 ctermbg=234 
+hi airline_z_to_airline_warning_inactive_inactive_red ctermfg=167 ctermbg=234
+hi airline_x_to_airline_y_inactive_inactive ctermfg=234 ctermbg=234
+hi airline_x_to_airline_y_inactive_inactive_bold  cterm=bold ctermfg=234 ctermbg=234 
+hi airline_x_to_airline_y_inactive_inactive_red ctermfg=167 ctermbg=234
+hi airline_c_to_airline_y_inactive_inactive ctermfg=234 ctermbg=234
+hi airline_c_to_airline_y_inactive_inactive_bold  cterm=bold ctermfg=234 ctermbg=234 
+hi airline_c_to_airline_y_inactive_inactive_red ctermfg=167 ctermbg=234
+hi airline_tabfill_to_airline_tabtype_inactive_inactive ctermfg=233 ctermbg=233
+hi airline_tabfill_to_airline_tabtype_inactive_inactive_bold  cterm=bold ctermfg=233 ctermbg=233 
+hi airline_tabfill_to_airline_tabtype_inactive_inactive_red ctermfg=167 ctermbg=233
+hi airline_tabfill_to_airline_tabfill_inactive_inactive ctermfg=233 ctermbg=233
+hi airline_tabfill_to_airline_tabfill_inactive_inactive_bold  cterm=bold ctermfg=233 ctermbg=233 
+hi airline_tabfill_to_airline_tabfill_inactive_inactive_red ctermfg=167 ctermbg=233
+hi airline_b_to_airline_c_inactive_inactive ctermfg=234 ctermbg=234
+hi airline_b_to_airline_c_inactive_inactive_bold  cterm=bold ctermfg=234 ctermbg=234 
+hi airline_b_to_airline_c_inactive_inactive_red ctermfg=167 ctermbg=234
+hi airline_y_to_airline_z_inactive_inactive ctermfg=234 ctermbg=234
+hi airline_y_to_airline_z_inactive_inactive_bold  cterm=bold ctermfg=234 ctermbg=234 
+hi airline_y_to_airline_z_inactive_inactive_red ctermfg=167 ctermbg=234
+hi airline_tabhid_to_airline_tab_inactive ctermfg=233 ctermbg=233
+hi airline_tab_to_airline_tabfill_inactive ctermfg=233 ctermbg=233
+hi airline_c4_to_airline_x_inactive ctermfg=234 ctermbg=234
+hi airline_c4_to_airline_x_inactive_inactive ctermfg=234 ctermbg=234
+hi airline_c4_to_airline_x_inactive_inactive_bold  cterm=bold ctermfg=234 ctermbg=234 
+hi airline_c4_to_airline_x_inactive_inactive_red ctermfg=167 ctermbg=234
+hi airline_tabhid_to_airline_tab_inactive_inactive ctermfg=233 ctermbg=233
+hi airline_tabhid_to_airline_tab_inactive_inactive_bold  cterm=bold ctermfg=233 ctermbg=233 
+hi airline_tabhid_to_airline_tab_inactive_inactive_red ctermfg=167 ctermbg=233
+hi airline_tab_to_airline_tabfill_inactive_inactive ctermfg=233 ctermbg=233
+hi airline_tab_to_airline_tabfill_inactive_inactive_bold  cterm=bold ctermfg=233 ctermbg=233 
+hi airline_tab_to_airline_tabfill_inactive_inactive_red ctermfg=167 ctermbg=233
+hi airline_c4_to_airline_x_bold  cterm=bold ctermfg=233 ctermbg=233 
+hi airline_c4_to_airline_x_red ctermfg=167 ctermbg=233
+hi airline_tabhid_to_airline_tab_bold  cterm=bold ctermfg=233 ctermbg=236 
+hi airline_tabhid_to_airline_tab_red ctermfg=167 ctermbg=236
+hi airline_tab_to_airline_tabfill_bold  cterm=bold ctermfg=236 ctermbg=233 
+hi airline_tab_to_airline_tabfill_red ctermfg=167 ctermbg=233
+hi airline_tabhid_to_airline_tabmod ctermfg=233 ctermbg=22
+hi airline_tabmod_to_airline_tabfill ctermfg=22 ctermbg=233
+hi airline_tabmod_to_airline_tabfill_bold  cterm=bold ctermfg=22 ctermbg=233 
+hi airline_tabmod_to_airline_tabfill_red ctermfg=167 ctermbg=233
+hi airline_tabhid_to_airline_tabmod_bold  cterm=bold ctermfg=233 ctermbg=22 
+hi airline_tabhid_to_airline_tabmod_red ctermfg=167 ctermbg=22
+hi airline_tabmod_to_airline_tabfill_inactive ctermfg=233 ctermbg=233
+hi airline_tabhid_to_airline_tabmod_inactive ctermfg=233 ctermbg=233
+hi airline_tabhid_to_airline_tabmod_inactive_inactive ctermfg=233 ctermbg=233
+hi airline_tabhid_to_airline_tabmod_inactive_inactive_bold  cterm=bold ctermfg=233 ctermbg=233 
+hi airline_tabhid_to_airline_tabmod_inactive_inactive_red ctermfg=167 ctermbg=233
+hi airline_tabmod_to_airline_tabfill_inactive_inactive ctermfg=233 ctermbg=233
+hi airline_tabmod_to_airline_tabfill_inactive_inactive_bold  cterm=bold ctermfg=233 ctermbg=233 
+hi airline_tabmod_to_airline_tabfill_inactive_inactive_red ctermfg=167 ctermbg=233
+" hi airline_c14_inactive cleared
+hi airline_tab_to_airline_tabsel ctermfg=236 ctermbg=25
+hi airline_tab_to_airline_tabsel_inactive ctermfg=233 ctermbg=233
+hi airline_c22_inactive ctermfg=237 ctermbg=234 guifg=#444444 guibg=#1c1c1c
+hi airline_c22_to_airline_x ctermfg=233 ctermbg=233
+hi airline_tabsel_to_airline_tab ctermfg=25 ctermbg=236
+hi airline_tab_to_airline_tabsel_bold  cterm=bold ctermfg=236 ctermbg=25 
+hi airline_tab_to_airline_tabsel_red ctermfg=167 ctermbg=25
+hi airline_tab_to_airline_tabsel_inactive_inactive ctermfg=233 ctermbg=233
+hi airline_tab_to_airline_tabsel_inactive_inactive_bold  cterm=bold ctermfg=233 ctermbg=233 
+hi airline_tab_to_airline_tabsel_inactive_inactive_red ctermfg=167 ctermbg=233
+hi airline_tabsel_to_airline_tab_inactive ctermfg=233 ctermbg=233
+hi airline_c22_to_airline_x_inactive ctermfg=234 ctermbg=234
+hi airline_tabsel_to_airline_tab_bold  cterm=bold ctermfg=25 ctermbg=236 
+hi airline_tabsel_to_airline_tab_red ctermfg=167 ctermbg=236
+hi airline_c22_to_airline_x_bold  cterm=bold ctermfg=233 ctermbg=233 
+hi airline_c22_to_airline_x_red ctermfg=167 ctermbg=233
+hi airline_tabsel_to_airline_tab_inactive_inactive ctermfg=233 ctermbg=233
+hi airline_tabsel_to_airline_tab_inactive_inactive_bold  cterm=bold ctermfg=233 ctermbg=233 
+hi airline_tabsel_to_airline_tab_inactive_inactive_red ctermfg=167 ctermbg=233
+hi airline_c22_to_airline_x_inactive_inactive ctermfg=234 ctermbg=234
+hi airline_c22_to_airline_x_inactive_inactive_bold  cterm=bold ctermfg=234 ctermbg=234 
+hi airline_c22_to_airline_x_inactive_inactive_red ctermfg=167 ctermbg=234
