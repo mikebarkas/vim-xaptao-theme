@@ -36,8 +36,7 @@ hi StringDelimiter ctermfg=58   ctermbg=none  cterm=none
 hi Comment         ctermfg=238	ctermbg=none	cterm=none
 hi SpecialKey      ctermfg=250  ctermbg=none  cterm=none
 hi NonText         ctermfg=240 ctermbg=233
-hi Directory       ctermfg=186  ctermbg=none  cterm=none
-" --------------------------------------------------------
+
 
 " --------------------------------------------------------
 "  Cursor
@@ -50,8 +49,8 @@ hi CursorLine      ctermfg=none ctermbg=none	cterm=none
 " --------------------------------------------------------
 "  Search
 " --------------------------------------------------------
-hi IncSearch      cterm=reverse
-hi Search         cterm=underline ctermfg=219 ctermbg=16
+hi Search         ctermfg=233   ctermbg=3     cterm=underline
+hi IncSearch      ctermfg=233   ctermbg=3     cterm=underline
 hi MoreMsg        ctermfg=122
 hi ModeMsg        cterm=bold
 hi Question       ctermfg=71
@@ -153,7 +152,6 @@ hi PreCondit       ctermfg=250	ctermbg=none	cterm=none
 hi PreProc         ctermfg=110	ctermbg=none	ctermbg=none
 hi Question        ctermfg=250	ctermbg=none	cterm=none
 hi Repeat          ctermfg=250	ctermbg=none	cterm=none
-hi Search          ctermfg=250	ctermbg=none	cterm=none
 
 " marks
 hi SignColumn      ctermfg=250	ctermbg=none	cterm=none
