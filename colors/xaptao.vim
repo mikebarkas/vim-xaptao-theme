@@ -33,6 +33,7 @@ hi Constant        ctermfg=250	ctermbg=none	cterm=none
 hi Debug           ctermfg=250	ctermbg=none	cterm=none
 hi Define          ctermfg=075  ctermbg=NONE
 hi Delimiter       ctermfg=253  ctermbg=none  cterm=bold
+hi StringDelimiter ctermfg=58   ctermbg=none  cterm=none
 hi Comment         ctermfg=238	ctermbg=none	cterm=none
 
 " --------------------------------------------------------
@@ -80,7 +81,6 @@ hi TabLineFill    ctermfg=103
 hi ColorColumn    ctermbg=16
 hi MatchParen     cterm=bold ctermfg=231 ctermbg=60
 hi Error          ctermfg=15 ctermbg=9
-hi Constant       ctermfg=167
 hi Special        ctermfg=107
 hi Statement      ctermfg=103
 hi PreProc        ctermfg=110
@@ -96,7 +96,6 @@ hi link Operator       Structure
 hi link Keyword        Statement
 hi link Exception      Statement
 hi link Include        PreProc
-hi link Define         PreProc
 hi link Macro          PreProc
 hi link PreCondit      PreProc
 hi StorageClass   ctermfg=179
@@ -104,11 +103,8 @@ hi Structure      ctermfg=110
 hi link Typedef        Type
 hi link Tag            Special
 hi link SpecialChar    Special
-hi Delimiter      ctermfg=66
 hi link SpecialComment Special
-hi link Debug          Special
 hi link ExtraWhitespace cleared
-hi StringDelimiter ctermfg=58
 
 " --------------------------------------------------------
 " Diff
