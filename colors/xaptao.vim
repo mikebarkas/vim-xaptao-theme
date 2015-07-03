@@ -34,7 +34,6 @@ hi Debug           ctermfg=250	ctermbg=none	cterm=none
 hi Define          ctermfg=075  ctermbg=NONE
 hi Delimiter       ctermfg=253  ctermbg=none  cterm=bold
 hi Comment         ctermfg=238	ctermbg=none	cterm=none
-" ----
 
 " --------------------------------------------------------
 "  Cursor
@@ -171,6 +170,9 @@ hi SpecialChar     ctermfg=250	ctermbg=none	cterm=none
 hi SpecialComment  ctermfg=250	ctermbg=none	cterm=none
 hi Special         ctermfg=250	ctermbg=none	cterm=bold
 
+" --------------------------------------------------------
+" Spell
+" --------------------------------------------------------
 if has("spell")
     hi SpellBad    guisp=#FF0000 gui=undercurl
     hi SpellCap    guisp=#7070F0 gui=undercurl
@@ -225,7 +227,6 @@ hi phpArrayPair	  ctermfg=250	ctermbg=none	cterm=none
 hi phpOperator	  ctermfg=246	ctermbg=none	cterm=none
 hi phpRelation	  ctermfg=250	ctermbg=none	cterm=none
 hi phpVarSelector ctermfg=250	ctermbg=none	cterm=none
-" ------
 hi link phpEnvVar      Identifier
 hi link phpIntVar      Identifier
 hi link phpCoreConstant Constant
