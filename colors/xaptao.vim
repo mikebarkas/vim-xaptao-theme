@@ -19,7 +19,9 @@ endif
 let g:colors_name="xaptao"
 
 " --------------------------------------------------------
-hi Normal          ctermfg=253   ctermbg=NONE
+"  General
+" --------------------------------------------------------
+hi Normal          ctermfg=253  ctermbg=NONE
 hi Function        ctermfg=110  ctermbg=none	cterm=none
 hi Identifier      ctermfg=247	ctermbg=none	cterm=none
 hi LineNr	         ctermfg=59 	ctermbg=233	  cterm=none
@@ -35,7 +37,7 @@ hi Delimiter       ctermfg=253  ctermbg=none  cterm=bold
 hi StringDelimiter ctermfg=58   ctermbg=none  cterm=none
 hi Comment         ctermfg=238	ctermbg=none	cterm=none
 hi SpecialKey      ctermfg=250  ctermbg=none  cterm=none
-hi NonText         ctermfg=240 ctermbg=233
+hi NonText         ctermfg=240  ctermbg=233
 
 
 " --------------------------------------------------------
@@ -51,6 +53,8 @@ hi CursorLine      ctermfg=none ctermbg=none	cterm=none
 " --------------------------------------------------------
 hi Search         ctermfg=233   ctermbg=3     cterm=underline
 hi IncSearch      ctermfg=233   ctermbg=3     cterm=underline
+
+" ---- continue below
 hi MoreMsg        ctermfg=122
 hi ModeMsg        cterm=bold
 hi Question       ctermfg=71
