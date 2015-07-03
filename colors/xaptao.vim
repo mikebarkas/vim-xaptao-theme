@@ -89,11 +89,7 @@ hi Underlined     cterm=underline ctermfg=81
 hi Ignore         ctermfg=0
 hi Todo           ctermfg=242 ctermbg=none  cterm=none
 hi String         ctermfg=107
-hi link  Character      Constant
-hi link  Number         Constant
-hi link  Boolean        Constant
 hi link  Float          Number
-hi link Conditional    Statement
 hi link Repeat         Statement
 hi link Label          Statement
 hi link Operator       Structure
