@@ -22,7 +22,7 @@ let g:colors_name="xaptao"
 hi Normal          ctermfg=253   ctermbg=NONE
 hi Function        ctermfg=110  ctermbg=none	cterm=none
 hi Identifier      ctermfg=247	ctermbg=none	cterm=none
-hi LineNr	         ctermfg=236	ctermbg=234	cterm=none
+hi LineNr	         ctermfg=59 	ctermbg=233	  cterm=none
 hi Boolean         ctermfg=107	ctermbg=none	cterm=none
 " --------------------------------------------------------
 hi Character       ctermfg=250	ctermbg=none	cterm=none
@@ -51,7 +51,6 @@ hi IncSearch      cterm=reverse
 hi Search         cterm=underline ctermfg=219 ctermbg=16
 hi MoreMsg        ctermfg=122
 hi ModeMsg        cterm=bold
-hi LineNr         ctermfg=59 ctermbg=233
 hi Question       ctermfg=71
 hi StatusLine     ctermfg=16 ctermbg=252
 hi StatusLineNC   ctermfg=231 ctermbg=235
@@ -83,7 +82,6 @@ hi MatchParen     cterm=bold ctermfg=231 ctermbg=60
 hi Error          ctermfg=15 ctermbg=9
 hi Constant       ctermfg=167
 hi Special        ctermfg=107
-hi Identifier     ctermfg=183
 hi Statement      ctermfg=103
 hi PreProc        ctermfg=110
 hi Type           ctermfg=215
@@ -95,7 +93,6 @@ hi link  Character      Constant
 hi link  Number         Constant
 hi link  Boolean        Constant
 hi link  Float          Number
-hi Function       ctermfg=222 guifg=#fad07a
 hi link Conditional    Statement
 hi link Repeat         Statement
 hi link Label          Statement
