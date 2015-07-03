@@ -61,8 +61,6 @@ hi Visual         ctermbg=237
 hi VisualNOS      cterm=bold,underline
 hi WarningMsg     ctermfg=224
 hi WildMenu       ctermfg=217 ctermbg=16
-hi Folded         ctermfg=145 ctermbg=236
-hi FoldColumn     ctermfg=59 ctermbg=234
 hi DiffAdd        ctermfg=193 ctermbg=22
 hi DiffChange     ctermbg=24
 hi DiffDelete     ctermfg=16 ctermbg=52
@@ -136,7 +134,8 @@ hi Float           ctermfg=250	ctermbg=none	cterm=none
 " --------------------------------------------------------
 " Fold
 " --------------------------------------------------------
-hi Folded          ctermfg=240  ctermbg=234   cterm=none
+hi Folded          ctermfg=240  ctermbg=233   cterm=none
+hi FoldColumn      ctermfg=59   ctermbg=234
 
 hi Ignore          ctermfg=250	ctermbg=none	cterm=none
 hi IncSearch       ctermfg=250	ctermbg=none	cterm=none
