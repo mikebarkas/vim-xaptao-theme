@@ -34,6 +34,9 @@ hi Define          ctermfg=075  ctermbg=NONE
 hi Delimiter       ctermfg=253  ctermbg=none  cterm=bold
 hi StringDelimiter ctermfg=58   ctermbg=none  cterm=none
 hi Comment         ctermfg=238	ctermbg=none	cterm=none
+hi SpecialKey      ctermfg=250  ctermbg=none  cterm=none
+hi NonText         ctermfg=240 ctermbg=233
+hi Directory       ctermfg=186  ctermbg=none  cterm=none
 " --------------------------------------------------------
 
 " --------------------------------------------------------
@@ -44,10 +47,9 @@ hi CursorLineNr	   ctermfg=222	ctermbg=none	cterm=bold
 hi CursorColumn    ctermfg=none ctermbg=none	cterm=none
 hi CursorLine      ctermfg=none ctermbg=none	cterm=none
 
-hi SpecialKey      ctermfg=250  ctermbg=none  cterm=none
-hi NonText         ctermfg=240 ctermbg=233
-hi Directory      ctermfg=186
-hi ErrorMsg       ctermbg=88
+" --------------------------------------------------------
+"  Search
+" --------------------------------------------------------
 hi IncSearch      cterm=reverse
 hi Search         cterm=underline ctermfg=219 ctermbg=16
 hi MoreMsg        ctermfg=122
@@ -114,7 +116,9 @@ hi DiffChange      ctermfg=250	ctermbg=none	cterm=none
 hi DiffDelete      ctermfg=250	ctermbg=none	cterm=none
 hi DiffText        ctermfg=250	ctermbg=none	cterm=none
 
-hi Directory       ctermfg=250	ctermbg=none	cterm=none
+" --------------------------------------------------------
+"  Error
+" --------------------------------------------------------
 hi Error           ctermfg=9	ctermbg=none	cterm=none
 hi ErrorMsg        ctermfg=250	ctermbg=none	cterm=none
 hi Exception       ctermfg=250	ctermbg=none	cterm=none
@@ -127,7 +131,6 @@ hi Folded          ctermfg=240  ctermbg=233   cterm=none
 hi FoldColumn      ctermfg=59   ctermbg=234
 
 hi Ignore          ctermfg=250	ctermbg=none	cterm=none
-hi IncSearch       ctermfg=250	ctermbg=none	cterm=none
 
 hi Keyword         ctermfg=250	ctermbg=none	cterm=none
 hi Label           ctermfg=250	ctermbg=none	cterm=none
@@ -189,7 +192,6 @@ hi WildMenu        guifg=#66D9EF guibg=#000000
 hi TabLineFill     guifg=#1B1D1E guibg=#1B1D1E
 hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 
-hi NonText         guifg=#465457
 
 " --------------------------------------------------------
 " PHP
