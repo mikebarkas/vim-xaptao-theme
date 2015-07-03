@@ -46,7 +46,7 @@ hi NonText         ctermfg=240  ctermbg=233
 hi Cursor          ctermfg=250	ctermbg=none	cterm=none
 hi CursorLineNr	   ctermfg=222	ctermbg=none	cterm=bold
 hi CursorColumn    ctermfg=none ctermbg=none	cterm=none
-hi CursorLine      ctermfg=none ctermbg=none	cterm=none
+hi CursorLine      ctermfg=none ctermbg=232 	cterm=none
 
 " --------------------------------------------------------
 "  Search
