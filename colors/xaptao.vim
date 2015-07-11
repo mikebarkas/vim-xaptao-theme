@@ -38,7 +38,7 @@ hi StringDelimiter ctermfg=58   ctermbg=none  cterm=none
 hi Comment         ctermfg=238	ctermbg=none	cterm=none
 hi SpecialKey      ctermfg=250  ctermbg=none  cterm=none
 hi NonText         ctermfg=240  ctermbg=233
-
+hi MoreMsg         ctermfg=122  ctermbg=none  cterm=none
 
 " --------------------------------------------------------
 "  Cursor
@@ -55,7 +55,6 @@ hi Search         ctermfg=233   ctermbg=3     cterm=underline
 hi IncSearch      ctermfg=233   ctermbg=3     cterm=underline
 
 " ---- continue below
-hi MoreMsg        ctermfg=122
 hi ModeMsg        cterm=bold
 hi Question       ctermfg=71
 hi StatusLine     ctermfg=16 ctermbg=252
@@ -141,7 +140,6 @@ hi Macro           ctermfg=250	ctermbg=none	cterm=none
 
 hi MatchParen      ctermfg=250	ctermbg=none	cterm=none
 hi ModeMsg         ctermfg=250	ctermbg=none	cterm=none
-hi MoreMsg         ctermfg=250	ctermbg=none	cterm=none
 hi Operator        ctermfg=246	ctermbg=none	cterm=none
 
 " --------------------------------------------------------
