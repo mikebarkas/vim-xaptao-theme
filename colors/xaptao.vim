@@ -39,6 +39,10 @@ hi Comment         ctermfg=238	ctermbg=none	cterm=none
 hi SpecialKey      ctermfg=250  ctermbg=none  cterm=none
 hi NonText         ctermfg=240  ctermbg=233
 hi MoreMsg         ctermfg=122  ctermbg=none  cterm=none
+hi ModeMsg         ctermfg=250	ctermbg=none	cterm=none
+hi Question        ctermfg=250	ctermbg=none	cterm=none
+hi StatusLine      ctermfg=16   ctermbg=252   cterm=none
+hi StatusLineNC    ctermfg=231  ctermbg=235   cterm=none
 
 " --------------------------------------------------------
 "  Cursor
@@ -55,10 +59,6 @@ hi Search         ctermfg=233   ctermbg=3     cterm=underline
 hi IncSearch      ctermfg=233   ctermbg=3     cterm=underline
 
 " ---- continue below
-hi ModeMsg        cterm=bold
-hi Question       ctermfg=71
-hi StatusLine     ctermfg=16 ctermbg=252
-hi StatusLineNC   ctermfg=231 ctermbg=235
 hi VertSplit      ctermfg=242 ctermbg=16
 hi Title          cterm=bold ctermfg=71
 hi Visual         ctermbg=237
@@ -139,7 +139,6 @@ hi Label           ctermfg=250	ctermbg=none	cterm=none
 hi Macro           ctermfg=250	ctermbg=none	cterm=none
 
 hi MatchParen      ctermfg=250	ctermbg=none	cterm=none
-hi ModeMsg         ctermfg=250	ctermbg=none	cterm=none
 hi Operator        ctermfg=246	ctermbg=none	cterm=none
 
 " --------------------------------------------------------
@@ -152,7 +151,6 @@ hi PmenuThumb      ctermfg=250	ctermbg=none	cterm=none
 
 hi PreCondit       ctermfg=250	ctermbg=none	cterm=none
 hi PreProc         ctermfg=110	ctermbg=none	ctermbg=none
-hi Question        ctermfg=250	ctermbg=none	cterm=none
 hi Repeat          ctermfg=250	ctermbg=none	cterm=none
 
 " marks
@@ -172,8 +170,6 @@ if has("spell")
 endif
 
 hi Statement       guifg=#666666  guibg=NONE  ctermfg=132
-hi StatusLine      guifg=#455354 guibg=fg
-hi StatusLineNC    guifg=#808080 guibg=#080808
 hi StorageClass    guifg=#FD971F               gui=italic
 hi Structure       guifg=#66D9EF
 hi Tag             guifg=#F92672               gui=italic
