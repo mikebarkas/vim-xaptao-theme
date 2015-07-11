@@ -84,10 +84,6 @@ endif
 " ---- continue below
 hi SignColumn     ctermfg=242 ctermbg=236
 hi Conceal        ctermfg=7 ctermbg=242
-hi SpellBad       cterm=underline ctermbg=88
-hi SpellCap       cterm=underline ctermbg=20
-hi SpellRare      cterm=underline ctermbg=53
-hi SpellLocal     cterm=underline ctermbg=23
 hi Pmenu          ctermfg=231 ctermbg=240
 hi PmenuSel       ctermfg=232 ctermbg=254
 hi PmenuSbar      ctermbg=248
