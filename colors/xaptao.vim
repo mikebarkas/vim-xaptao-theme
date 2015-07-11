@@ -43,6 +43,7 @@ hi ModeMsg         ctermfg=250	ctermbg=none	cterm=none
 hi Question        ctermfg=250	ctermbg=none	cterm=none
 hi StatusLine      ctermfg=16   ctermbg=252   cterm=none
 hi StatusLineNC    ctermfg=231  ctermbg=235   cterm=none
+hi VertSplit       ctermfg=234  ctermbg=0   cterm=none
 
 " --------------------------------------------------------
 "  Cursor
@@ -59,7 +60,6 @@ hi Search         ctermfg=233   ctermbg=3     cterm=underline
 hi IncSearch      ctermfg=233   ctermbg=3     cterm=underline
 
 " ---- continue below
-hi VertSplit      ctermfg=242 ctermbg=16
 hi Title          cterm=bold ctermfg=71
 hi Visual         ctermbg=237
 hi VisualNOS      cterm=bold,underline
@@ -179,7 +179,6 @@ hi Typedef         guifg=#66D9EF
 hi Type            ctermfg=215	ctermbg=none	cterm=none
 hi Underlined      guifg=#808080               gui=underline
 
-hi VertSplit       ctermfg=234    ctermbg=0   cterm=none
 hi VisualNOS                     guibg=#403D3D
 hi Visual                        guibg=#403D3D
 hi WarningMsg      guifg=#FFFFFF guibg=#333333 gui=bold
