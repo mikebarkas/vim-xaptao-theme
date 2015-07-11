@@ -43,7 +43,8 @@ hi ModeMsg         ctermfg=250	ctermbg=none	cterm=none
 hi Question        ctermfg=250	ctermbg=none	cterm=none
 hi StatusLine      ctermfg=16   ctermbg=252   cterm=none
 hi StatusLineNC    ctermfg=231  ctermbg=235   cterm=none
-hi VertSplit       ctermfg=234  ctermbg=0   cterm=none
+hi VertSplit       ctermfg=234  ctermbg=0     cterm=none
+hi Title           ctermfg=71   ctermbg=none  cterm=bold
 
 " --------------------------------------------------------
 "  Cursor
@@ -60,7 +61,6 @@ hi Search         ctermfg=233   ctermbg=3     cterm=underline
 hi IncSearch      ctermfg=233   ctermbg=3     cterm=underline
 
 " ---- continue below
-hi Title          cterm=bold ctermfg=71
 hi Visual         ctermbg=237
 hi VisualNOS      cterm=bold,underline
 hi WarningMsg     ctermfg=224
@@ -173,7 +173,6 @@ hi Statement       guifg=#666666  guibg=NONE  ctermfg=132
 hi StorageClass    guifg=#FD971F               gui=italic
 hi Structure       guifg=#66D9EF
 hi Tag             guifg=#F92672               gui=italic
-hi Title           ctermfg=024
 
 hi Typedef         guifg=#66D9EF
 hi Type            ctermfg=215	ctermbg=none	cterm=none
