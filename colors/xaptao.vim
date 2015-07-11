@@ -47,6 +47,8 @@ hi VertSplit       ctermfg=234  ctermbg=0     cterm=none
 hi Title           ctermfg=71   ctermbg=none  cterm=bold
 hi Visual          ctermfg=none ctermbg=237   cterm=bold
 hi VisualNOS       cterm=bold,underline
+hi WarningMsg      ctermfg=224
+hi WildMenu        ctermfg=217 ctermbg=16     cterm=none
 
 " --------------------------------------------------------
 "  Cursor
@@ -63,8 +65,6 @@ hi Search         ctermfg=233   ctermbg=3     cterm=underline
 hi IncSearch      ctermfg=233   ctermbg=3     cterm=underline
 
 " ---- continue below
-hi WarningMsg     ctermfg=224
-hi WildMenu       ctermfg=217 ctermbg=16
 hi DiffAdd        ctermfg=193 ctermbg=22
 hi DiffChange     ctermbg=24
 hi DiffDelete     ctermfg=16 ctermbg=52
@@ -178,8 +178,6 @@ hi Typedef         guifg=#66D9EF
 hi Type            ctermfg=215	ctermbg=none	cterm=none
 hi Underlined      guifg=#808080               gui=underline
 
-hi WarningMsg      guifg=#FFFFFF guibg=#333333 gui=bold
-hi WildMenu        guifg=#66D9EF guibg=#000000
 
 hi TabLineFill     guifg=#1B1D1E guibg=#1B1D1E
 hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
