@@ -72,6 +72,15 @@ hi DiffChange      ctermfg=250	ctermbg=none	cterm=none
 hi DiffDelete      ctermfg=250	ctermbg=none	cterm=none
 hi DiffText        ctermfg=250	ctermbg=none	cterm=none
 
+" --------------------------------------------------------
+" Spell
+" --------------------------------------------------------
+if has("spell")
+  hi SpellBad       cterm=underline ctermbg=88
+  hi SpellCap       cterm=underline ctermbg=88
+  hi SpellRare      cterm=underline ctermbg=88
+  hi SpellLocal     cterm=underline ctermbg=88
+endif
 " ---- continue below
 hi SignColumn     ctermfg=242 ctermbg=236
 hi Conceal        ctermfg=7 ctermbg=242
@@ -156,15 +165,6 @@ hi SpecialChar     ctermfg=250	ctermbg=none	cterm=none
 hi SpecialComment  ctermfg=250	ctermbg=none	cterm=none
 hi Special         ctermfg=250	ctermbg=none	cterm=bold
 
-" --------------------------------------------------------
-" Spell
-" --------------------------------------------------------
-if has("spell")
-    hi SpellBad    guisp=#FF0000 gui=undercurl
-    hi SpellCap    guisp=#7070F0 gui=undercurl
-    hi SpellLocal  guisp=#70F0F0 gui=undercurl
-    hi SpellRare   guisp=#FFFFFF gui=undercurl
-endif
 
 hi Statement       guifg=#666666  guibg=NONE  ctermfg=132
 hi StorageClass    guifg=#FD971F               gui=italic
