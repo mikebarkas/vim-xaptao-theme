@@ -64,11 +64,15 @@ hi CursorLine      ctermfg=none ctermbg=232 	cterm=none
 hi Search         ctermfg=233   ctermbg=3     cterm=underline
 hi IncSearch      ctermfg=233   ctermbg=3     cterm=underline
 
+" --------------------------------------------------------
+" Diff
+" --------------------------------------------------------
+hi DiffAdd         ctermfg=250	ctermbg=none	cterm=none
+hi DiffChange      ctermfg=250	ctermbg=none	cterm=none
+hi DiffDelete      ctermfg=250	ctermbg=none	cterm=none
+hi DiffText        ctermfg=250	ctermbg=none	cterm=none
+
 " ---- continue below
-hi DiffAdd        ctermfg=193 ctermbg=22
-hi DiffChange     ctermbg=24
-hi DiffDelete     ctermfg=16 ctermbg=52
-hi DiffText       cterm=reverse ctermfg=81 ctermbg=16
 hi SignColumn     ctermfg=242 ctermbg=236
 hi Conceal        ctermfg=7 ctermbg=242
 hi SpellBad       cterm=underline ctermbg=88
@@ -110,13 +114,6 @@ hi link SpecialChar    Special
 hi link SpecialComment Special
 hi link ExtraWhitespace cleared
 
-" --------------------------------------------------------
-" Diff
-" --------------------------------------------------------
-hi DiffAdd         ctermfg=250	ctermbg=none	cterm=none
-hi DiffChange      ctermfg=250	ctermbg=none	cterm=none
-hi DiffDelete      ctermfg=250	ctermbg=none	cterm=none
-hi DiffText        ctermfg=250	ctermbg=none	cterm=none
 
 " --------------------------------------------------------
 "  Error
