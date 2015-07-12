@@ -63,8 +63,8 @@ hi CursorLine      ctermfg=none ctermbg=232 	cterm=none
 " --------------------------------------------------------
 "  Search
 " --------------------------------------------------------
-hi Search         ctermfg=233   ctermbg=3     cterm=underline
-hi IncSearch      ctermfg=233   ctermbg=3     cterm=underline
+hi Search          ctermfg=233   ctermbg=3    cterm=underline
+hi IncSearch       ctermfg=233   ctermbg=3    cterm=underline
 
 " --------------------------------------------------------
 " Diff
@@ -83,11 +83,16 @@ if has("spell")
   hi SpellRare      cterm=underline ctermbg=88
   hi SpellLocal     cterm=underline ctermbg=88
 endif
+
+" --------------------------------------------------------
+" Complete Menu
+" --------------------------------------------------------
+hi Pmenu           ctermfg=250	ctermbg=none	cterm=none
+hi PmenuSel        ctermfg=250	ctermbg=none	cterm=none
+hi PmenuSbar       ctermfg=250	ctermbg=none	cterm=none
+hi PmenuThumb      ctermfg=250	ctermbg=none	cterm=none
+"
 " ---- continue below
-hi Pmenu          ctermfg=231 ctermbg=240
-hi PmenuSel       ctermfg=232 ctermbg=254
-hi PmenuSbar      ctermbg=248
-hi PmenuThumb     ctermbg=15
 hi TabLine        ctermfg=16 ctermbg=145
 hi TabLineSel     cterm=bold ctermfg=16 ctermbg=254
 hi TabLineFill    ctermfg=103
@@ -143,13 +148,6 @@ hi Macro           ctermfg=250	ctermbg=none	cterm=none
 hi MatchParen      ctermfg=250	ctermbg=none	cterm=none
 hi Operator        ctermfg=246	ctermbg=none	cterm=none
 
-" --------------------------------------------------------
-" Complete Menu
-" --------------------------------------------------------
-hi Pmenu           ctermfg=250	ctermbg=none	cterm=none
-hi PmenuSel        ctermfg=250	ctermbg=none	cterm=none
-hi PmenuSbar       ctermfg=250	ctermbg=none	cterm=none
-hi PmenuThumb      ctermfg=250	ctermbg=none	cterm=none
 
 hi PreCondit       ctermfg=250	ctermbg=none	cterm=none
 hi PreProc         ctermfg=110	ctermbg=none	ctermbg=none
