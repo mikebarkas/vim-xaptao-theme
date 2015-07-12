@@ -51,6 +51,7 @@ hi WarningMsg      ctermfg=224
 hi WildMenu        ctermfg=217  ctermbg=16    cterm=none
 hi SignColumn      ctermfg=242  ctermbg=236   cterm=none
 hi Conceal         ctermfg=7    ctermbg=242   cterm=none
+hi ColorColumn     ctermbg=16
 
 " --------------------------------------------------------
 "  Cursor
@@ -100,9 +101,7 @@ hi TabLineSel     ctermfg=16    ctermbg=254   cterm=bold
 hi TabLineFill    ctermfg=103   ctermbg=none  cterm=none
 
 " ---- continue below
-hi ColorColumn    ctermbg=16
 hi MatchParen     cterm=bold ctermfg=231 ctermbg=60
-hi Error          ctermfg=15 ctermbg=9
 hi Special        ctermfg=107
 hi Statement      ctermfg=103
 hi PreProc        ctermfg=110
