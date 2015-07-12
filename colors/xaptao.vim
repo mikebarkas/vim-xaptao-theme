@@ -91,11 +91,15 @@ hi Pmenu           ctermfg=250	ctermbg=none	cterm=none
 hi PmenuSel        ctermfg=250	ctermbg=none	cterm=none
 hi PmenuSbar       ctermfg=250	ctermbg=none	cterm=none
 hi PmenuThumb      ctermfg=250	ctermbg=none	cterm=none
-"
+
+" --------------------------------------------------------
+" TabLine
+" --------------------------------------------------------
+hi TabLine        ctermfg=16    ctermbg=145   cterm=none
+hi TabLineSel     ctermfg=16    ctermbg=254   cterm=bold
+hi TabLineFill    ctermfg=103   ctermbg=none  cterm=none
+
 " ---- continue below
-hi TabLine        ctermfg=16 ctermbg=145
-hi TabLineSel     cterm=bold ctermfg=16 ctermbg=254
-hi TabLineFill    ctermfg=103
 hi ColorColumn    ctermbg=16
 hi MatchParen     cterm=bold ctermfg=231 ctermbg=60
 hi Error          ctermfg=15 ctermbg=9
@@ -169,8 +173,6 @@ hi Type            ctermfg=215	ctermbg=none	cterm=none
 hi Underlined      guifg=#808080               gui=underline
 
 
-hi TabLineFill     guifg=#1B1D1E guibg=#1B1D1E
-hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 
 
 " --------------------------------------------------------
