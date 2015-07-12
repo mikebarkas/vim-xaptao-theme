@@ -36,7 +36,6 @@ hi Define          ctermfg=075  ctermbg=NONE
 hi Delimiter       ctermfg=253  ctermbg=none  cterm=bold
 hi StringDelimiter ctermfg=58   ctermbg=none  cterm=none
 hi Comment         ctermfg=238	ctermbg=none	cterm=none
-hi SpecialKey      ctermfg=250  ctermbg=none  cterm=none
 hi NonText         ctermfg=240  ctermbg=233
 hi MoreMsg         ctermfg=122  ctermbg=none  cterm=none
 hi ModeMsg         ctermfg=250	ctermbg=none	cterm=none
@@ -100,9 +99,13 @@ hi TabLine        ctermfg=16    ctermbg=145   cterm=none
 hi TabLineSel     ctermfg=16    ctermbg=254   cterm=bold
 hi TabLineFill    ctermfg=103   ctermbg=none  cterm=none
 
+hi SpecialChar     ctermfg=250	ctermbg=none	cterm=none
+hi SpecialComment  ctermfg=250	ctermbg=none	cterm=none
+hi Special         ctermfg=250	ctermbg=none	cterm=bold
+hi SpecialKey      ctermfg=250  ctermbg=none  cterm=none
+
 " ---- continue below
 hi MatchParen     cterm=bold ctermfg=231 ctermbg=60
-hi Special        ctermfg=107
 hi Statement      ctermfg=103
 hi PreProc        ctermfg=110
 hi Type           ctermfg=215
@@ -123,8 +126,6 @@ hi StorageClass   ctermfg=179
 hi Structure      ctermfg=110
 hi link Typedef        Type
 hi link Tag            Special
-hi link SpecialChar    Special
-hi link SpecialComment Special
 hi link ExtraWhitespace cleared
 
 
@@ -157,9 +158,6 @@ hi PreProc         ctermfg=110	ctermbg=none	ctermbg=none
 hi Repeat          ctermfg=250	ctermbg=none	cterm=none
 
 " marks
-hi SpecialChar     ctermfg=250	ctermbg=none	cterm=none
-hi SpecialComment  ctermfg=250	ctermbg=none	cterm=none
-hi Special         ctermfg=250	ctermbg=none	cterm=bold
 
 
 hi Statement       guifg=#666666  guibg=NONE  ctermfg=132
