@@ -48,7 +48,9 @@ hi Title           ctermfg=71   ctermbg=none  cterm=bold
 hi Visual          ctermfg=none ctermbg=237   cterm=bold
 hi VisualNOS       cterm=bold,underline
 hi WarningMsg      ctermfg=224
-hi WildMenu        ctermfg=217 ctermbg=16     cterm=none
+hi WildMenu        ctermfg=217  ctermbg=16    cterm=none
+hi SignColumn      ctermfg=242  ctermbg=236   cterm=none
+hi Conceal         ctermfg=7    ctermbg=242   cterm=none
 
 " --------------------------------------------------------
 "  Cursor
@@ -82,8 +84,6 @@ if has("spell")
   hi SpellLocal     cterm=underline ctermbg=88
 endif
 " ---- continue below
-hi SignColumn     ctermfg=242 ctermbg=236
-hi Conceal        ctermfg=7 ctermbg=242
 hi Pmenu          ctermfg=231 ctermbg=240
 hi PmenuSel       ctermfg=232 ctermbg=254
 hi PmenuSbar      ctermbg=248
@@ -156,7 +156,6 @@ hi PreProc         ctermfg=110	ctermbg=none	ctermbg=none
 hi Repeat          ctermfg=250	ctermbg=none	cterm=none
 
 " marks
-hi SignColumn      ctermfg=250	ctermbg=none	cterm=none
 hi SpecialChar     ctermfg=250	ctermbg=none	cterm=none
 hi SpecialComment  ctermfg=250	ctermbg=none	cterm=none
 hi Special         ctermfg=250	ctermbg=none	cterm=bold
