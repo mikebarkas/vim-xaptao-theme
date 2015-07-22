@@ -386,6 +386,7 @@ hi link sqlComment    Comment
 " --------------------------------------------------------
 " Directory
 " --------------------------------------------------------
+hi Directory  ctermfg=222   ctermbg=none    cterm=none
 hi link netrwHide      netrwComment
 hi link netrwSortBy    cleared
 hi link netrwSortSeq   cleared
@@ -402,7 +403,7 @@ hi link netrwDateSep   Delimiter
 hi link netrwTime      cleared
 hi link netrwSizeDate  cleared
 hi link netrwTreeBarSpace cleared
-hi link netrwTreeBar   Special
+hi netrwTreeBar  ctermfg=107   ctermbg=none    cterm=none
 hi link netrwTimeSep   netrwDateSep
 hi link netrwComment   Comment
 hi link netrwHidePat   Statement
