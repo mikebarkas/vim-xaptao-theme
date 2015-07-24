@@ -429,3 +429,9 @@ hi link netrwTilde     Folded
 hi link netrwTmp       Folded
 hi link netrwTags      Folded
 hi link netrwYacc      netrwPlain
+
+" --------------------------------------------------------
+" Tagbar
+" --------------------------------------------------------
+hi link TagbarKind Identifier
+hi link TagbarScope Title
