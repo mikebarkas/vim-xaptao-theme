@@ -435,3 +435,18 @@ hi link netrwYacc      netrwPlain
 " --------------------------------------------------------
 hi link TagbarKind Identifier
 hi link TagbarScope Title
+hi link TagbarFoldIcon Directory
+hi link TagbarVisibilityPublic TagbarAccessPublic
+hi link TagbarVisibilityProtected TagbarAccessProtected
+hi link TagbarVisibilityPrivate TagbarAccessPrivate
+hi link TagbarHelpKey Identifier
+hi link TagbarHelpTitle PreProc
+hi link TagbarHelp Comment
+hi link TagbarNestedKind TagbarKind
+hi link TagbarType Type
+hi link TagbarSignature SpecialKey
+hi link TagbarPseudoID NonText
+hi link TagbarHighlight Search
+hi link TagbarAccessPublic Title
+hi link TagbarAccessProtected Title
+hi link TagbarAccessPrivate Title
