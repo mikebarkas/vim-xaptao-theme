@@ -106,7 +106,7 @@ hi SpecialKey      ctermfg=250  ctermbg=none  cterm=none
 
 " ---- continue below
 hi MatchParen     cterm=bold ctermfg=231 ctermbg=60
-hi Statement      ctermfg=103
+hi Statement      ctermfg=238
 hi PreProc        ctermfg=110
 hi Type           ctermfg=215
 hi Underlined     cterm=underline ctermfg=81
