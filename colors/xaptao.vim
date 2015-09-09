@@ -32,7 +32,7 @@ hi String          ctermfg=144	ctermbg=none	cterm=none
 hi Conditional     ctermfg=250	ctermbg=none	cterm=none
 hi Constant        ctermfg=250	ctermbg=none	cterm=none
 hi Debug           ctermfg=250	ctermbg=none	cterm=none
-hi Define          ctermfg=075  ctermbg=NONE
+hi Define          ctermfg=110  ctermbg=NONE
 hi Delimiter       ctermfg=253  ctermbg=none  cterm=bold
 hi StringDelimiter ctermfg=58   ctermbg=none  cterm=none
 hi Comment         ctermfg=238	ctermbg=none	cterm=none
