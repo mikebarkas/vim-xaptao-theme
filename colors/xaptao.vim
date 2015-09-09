@@ -178,6 +178,8 @@ hi Underlined      guifg=#808080               gui=underline
 hi phpComment	    ctermfg=238	ctermbg=none	cterm=none
 hi phpDocComment	ctermfg=238	ctermbg=none	cterm=none
 hi phpDocTags     ctermfg=238 ctermbg=none  cterm=none
+hi link phpDocCustomTags Todo
+hi link phpDocTodo     Todo
 hi phpDocParam    ctermfg=240 ctermbg=none  cterm=none
 hi phpType        ctermfg=179 ctermbg=none  cterm=none
 hi phpKeyword     ctermfg=110 ctermbg=none  cterm=none
@@ -259,9 +261,6 @@ hi link phpClasses     phpFunctions
 hi link phpInterfaces  phpConstant
 hi link phpAssignByRef Type
 hi link phpComparison  Statement
-hi link phpDocCustomTags Todo
-hi link phpDocTags    cleared
-hi link phpDocTodo     Todo
 hi link phpBaselib     Function
 hi link phpIdentifierConst Delimiter
 
