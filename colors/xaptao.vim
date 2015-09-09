@@ -51,6 +51,7 @@ hi WildMenu        ctermfg=217  ctermbg=16    cterm=none
 hi SignColumn      ctermfg=242  ctermbg=236   cterm=none
 hi Conceal         ctermfg=7    ctermbg=242   cterm=none
 hi ColorColumn     ctermbg=16
+hi MatchParen      ctermfg=196
 
 " --------------------------------------------------------
 "  Cursor
@@ -105,7 +106,6 @@ hi Special         ctermfg=250	ctermbg=none	cterm=bold
 hi SpecialKey      ctermfg=250  ctermbg=none  cterm=none
 
 " ---- continue below
-hi MatchParen     cterm=bold ctermfg=231 ctermbg=60
 hi Statement      ctermfg=238
 hi PreProc        ctermfg=110
 hi Type           ctermfg=215
