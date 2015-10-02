@@ -105,10 +105,10 @@ hi SpecialComment  ctermfg=250	ctermbg=none	cterm=none
 hi Special         ctermfg=250	ctermbg=none	cterm=bold
 hi SpecialKey      ctermfg=250  ctermbg=none  cterm=none
 
+hi Type           ctermfg=179 ctermbg=none cterm=none
 " ---- continue below
 hi Statement      ctermfg=238
 hi PreProc        ctermfg=110
-hi Type           ctermfg=215
 hi Underlined     cterm=underline ctermfg=81
 hi Ignore         ctermfg=0
 hi Todo           ctermfg=242 ctermbg=none  cterm=none
@@ -165,11 +165,7 @@ hi StorageClass    guifg=#FD971F               gui=italic
 hi Structure       guifg=#66D9EF
 hi Tag             guifg=#F92672               gui=italic
 
-hi Typedef         guifg=#66D9EF
-hi Type            ctermfg=215	ctermbg=none	cterm=none
 hi Underlined      guifg=#808080               gui=underline
-
-
 
 " --------------------------------------------------------
 " HTML
@@ -393,7 +389,7 @@ hi link sqlComment    Comment
 " --------------------------------------------------------
 " Directory
 " --------------------------------------------------------
-hi Directory  ctermfg=222   ctermbg=none    cterm=none
+hi Directory    ctermfg=179 ctermbg=none cterm=none
 hi link netrwHide      netrwComment
 hi link netrwSortBy    cleared
 hi link netrwSortSeq   cleared
