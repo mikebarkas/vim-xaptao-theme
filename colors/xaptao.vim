@@ -171,6 +171,14 @@ hi Underlined      guifg=#808080               gui=underline
 
 
 
+" --------------------------------------------------------
+" HTML
+" --------------------------------------------------------
+hi htmlTag        ctermfg=253 ctermbg=none cterm=none
+hi htmlString     ctermfg=246 ctermbg=none cterm=none
+hi htmlValue      ctermfg=246 ctermbg=none cterm=none
+hi htmlArg        ctermfg=179 ctermbg=none cterm=none
+
 
 " --------------------------------------------------------
 " PHP
