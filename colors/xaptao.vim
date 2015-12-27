@@ -51,7 +51,7 @@ hi WildMenu        ctermfg=217  ctermbg=16    cterm=none
 hi SignColumn      ctermfg=242  ctermbg=236   cterm=none
 hi Conceal         ctermfg=7    ctermbg=242   cterm=none
 hi ColorColumn     ctermbg=16
-hi MatchParen      ctermfg=196
+hi MatchParen      ctermfg=222   ctermbg=240  cterm=none
 
 " --------------------------------------------------------
 "  Cursor
@@ -149,7 +149,6 @@ hi Keyword         ctermfg=250	ctermbg=none	cterm=none
 hi Label           ctermfg=250	ctermbg=none	cterm=none
 hi Macro           ctermfg=250	ctermbg=none	cterm=none
 
-hi MatchParen      ctermfg=250	ctermbg=none	cterm=none
 hi Operator        ctermfg=246	ctermbg=none	cterm=none
 
 
@@ -398,7 +397,7 @@ hi link sqlComment    Comment
 " --------------------------------------------------------
 " Directory
 " --------------------------------------------------------
-hi Directory    ctermfg=179 ctermbg=none cterm=none
+hi Directory    ctermfg=222 ctermbg=none cterm=none
 hi link netrwHide      netrwComment
 hi link netrwSortBy    cleared
 hi link netrwSortSeq   cleared
