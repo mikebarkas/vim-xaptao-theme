@@ -186,7 +186,7 @@ hi link phpDocTodo     Todo
 hi phpDocParam    ctermfg=240 ctermbg=none  cterm=none
 hi phpType        ctermfg=179 ctermbg=none  cterm=none
 hi phpKeyword     ctermfg=110 ctermbg=none  cterm=none
-hi phpFunction	  ctermfg=110	ctermbg=none	cterm=none
+hi link phpFunction Identifier
 hi phpFunctions	  ctermfg=110	ctermbg=none	cterm=none
 hi phpVarSelector ctermfg=247 ctermbg=none  cterm=none
 hi phpIdentifier  ctermfg=247	ctermbg=none	cterm=none
@@ -397,7 +397,7 @@ hi link sqlComment    Comment
 " --------------------------------------------------------
 " Directory
 " --------------------------------------------------------
-hi Directory    ctermfg=222 ctermbg=none cterm=none
+hi Directory    ctermfg=179 ctermbg=none cterm=none
 hi link netrwHide      netrwComment
 hi link netrwSortBy    cleared
 hi link netrwSortSeq   cleared
