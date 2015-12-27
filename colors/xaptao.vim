@@ -246,7 +246,7 @@ hi link phpBackslashSingleQuote SpecialChar
 hi link phpTodo        Todo
 hi link phpStringDouble String
 hi link phpBacktick     String
-hi link phpStringSingle String
+hi phpStringSingle  ctermfg=248 ctermbg=none  cterm=none
 hi link phpHereDoc     cleared
 hi link phpNowDoc      cleared
 hi link phpException   Exception
@@ -267,6 +267,15 @@ hi link phpAssignByRef Type
 hi link phpComparison  Statement
 hi link phpBaselib     Function
 hi link phpIdentifierConst Delimiter
+
+
+" --------------------------------------------------------
+" DoxyGen
+" --------------------------------------------------------
+hi link doxygenComment phpComment
+hi link doxygenBody phpComment
+hi link doxygenSpecialMultilineDesc phpComment
+
 
 " --------------------------------------------------------
 "  JS
