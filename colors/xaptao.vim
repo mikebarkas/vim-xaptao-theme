@@ -400,8 +400,8 @@ hi link  jsError        Error
 " --------------------------------------------------------
 "  JSON
 " --------------------------------------------------------
-hi jsonKeywordMatch ctermfg=245	ctermbg=none	cterm=none
-hi jsonKeyword      ctermfg=245	ctermbg=none	cterm=none
+hi jsonKeywordMatch ctermfg=250	ctermbg=none	cterm=none
+hi jsonKeyword      ctermfg=248	ctermbg=none	cterm=none
 hi jsonString       ctermfg=222	ctermbg=none	cterm=none
 
 
