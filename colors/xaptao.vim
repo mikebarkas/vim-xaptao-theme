@@ -246,6 +246,7 @@ hi link phpTodo        Todo
 hi link phpStringDouble String
 hi link phpBacktick     String
 hi phpStringSingle  ctermfg=248 ctermbg=none  cterm=none
+hi link phpStringDelimiter Delimiter
 hi link phpHereDoc     cleared
 hi link phpNowDoc      cleared
 hi link phpException   Exception
