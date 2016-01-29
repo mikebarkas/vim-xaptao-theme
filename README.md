@@ -2,6 +2,7 @@
 
 My Vim theme.
 
+Simple _dark_ theme with few colors.
 
 Support for color terminal only.
 
