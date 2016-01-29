@@ -105,7 +105,7 @@ hi SpecialComment  ctermfg=250	ctermbg=none	cterm=none
 hi Special         ctermfg=250	ctermbg=none	cterm=bold
 hi SpecialKey      ctermfg=250  ctermbg=none  cterm=none
 
-hi Type           ctermfg=179 ctermbg=none cterm=none
+hi Type           ctermfg=222 ctermbg=none cterm=none
 " ---- continue below
 hi Statement      ctermfg=238
 hi PreProc        ctermfg=110
@@ -122,7 +122,7 @@ hi link Exception      Statement
 hi link Include        PreProc
 hi link Macro          PreProc
 hi link PreCondit      PreProc
-hi StorageClass   ctermfg=179
+hi StorageClass   ctermfg=222
 hi Structure      ctermfg=110
 hi link Typedef        Type
 hi link Tag            Special
@@ -172,7 +172,7 @@ hi Underlined      guifg=#808080               gui=underline
 hi htmlTag        ctermfg=253 ctermbg=none cterm=none
 hi htmlString     ctermfg=246 ctermbg=none cterm=none
 hi htmlValue      ctermfg=246 ctermbg=none cterm=none
-hi htmlArg        ctermfg=179 ctermbg=none cterm=none
+hi htmlArg        ctermfg=222 ctermbg=none cterm=none
 
 
 " --------------------------------------------------------
@@ -184,7 +184,7 @@ hi phpDocTags     ctermfg=238 ctermbg=none  cterm=none
 hi link phpDocCustomTags Todo
 hi link phpDocTodo     Todo
 hi phpDocParam    ctermfg=240 ctermbg=none  cterm=none
-hi phpType        ctermfg=179 ctermbg=none  cterm=none
+hi phpType        ctermfg=222 ctermbg=none  cterm=none
 hi phpKeyword     ctermfg=110 ctermbg=none  cterm=none
 hi link phpFunction Identifier
 hi phpFunctions	  ctermfg=110	ctermbg=none	cterm=none
@@ -386,7 +386,7 @@ hi link  jsError        Error
 " --------------------------------------------------------
 hi jsonKeywordMatch ctermfg=245	ctermbg=none	cterm=none
 hi jsonKeyword      ctermfg=245	ctermbg=none	cterm=none
-hi jsonString       ctermfg=179	ctermbg=none	cterm=none
+hi jsonString       ctermfg=222	ctermbg=none	cterm=none
 
 
 " --------------------------------------------------------
@@ -406,7 +406,7 @@ hi link sqlComment    Comment
 " --------------------------------------------------------
 " Directory
 " --------------------------------------------------------
-hi Directory    ctermfg=179 ctermbg=none cterm=none
+hi Directory    ctermfg=222 ctermbg=none cterm=none
 hi link netrwHide      netrwComment
 hi link netrwSortBy    cleared
 hi link netrwSortSeq   cleared
