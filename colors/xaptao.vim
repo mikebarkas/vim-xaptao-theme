@@ -380,6 +380,15 @@ hi link  jsCharacter    Character
 hi link  jsBranch       Conditional
 hi link  jsError        Error
 
+
+" --------------------------------------------------------
+"  JSON
+" --------------------------------------------------------
+hi jsonKeywordMatch ctermfg=245	ctermbg=none	cterm=none
+hi jsonKeyword      ctermfg=245	ctermbg=none	cterm=none
+hi jsonString       ctermfg=179	ctermbg=none	cterm=none
+
+
 " --------------------------------------------------------
 " SQL
 " --------------------------------------------------------
