@@ -12,4 +12,4 @@ Support for color terminal only.
 
 ----
 ### JSON
-![JSON Screenshot](https://cloud.githubusercontent.com/assets/6330126/12666197/8b9151d2-c60c-11e5-90f0-37d7ade78277.png)
+![JSON Screenshot](https://cloud.githubusercontent.com/assets/6330126/12666301/5f0a7674-c60d-11e5-9e34-071cdcf55374.png)
