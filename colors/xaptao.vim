@@ -271,9 +271,21 @@ hi link phpIdentifierConst Delimiter
 " --------------------------------------------------------
 " DoxyGen
 " --------------------------------------------------------
+hi doxygenBrief     ctermfg=247 ctermbg=none cterm=none
+hi doxygenParam     ctermfg=247 ctermbg=none cterm=none
+hi doxygenParamName ctermfg=247 ctermbg=none cterm=none
 hi link doxygenComment phpComment
 hi link doxygenBody phpComment
 hi link doxygenSpecialMultilineDesc phpComment
+hi link doxygenSmallSpecial phpComment
+hi link doxygenOther phpComment
+hi link doxygenLinkWord phpComment
+hi link doxygenEndLinkSpecial phpComment
+hi link doxygenSpecial phpComment
+hi link doxygenOtherTODO phpComment
+hi link doxygenSpecialIdent phpComment
+hi link doxygenSpecialOnelineDesc phpComment
+hi link doxygenHyperLink phpComment
 
 
 " --------------------------------------------------------
