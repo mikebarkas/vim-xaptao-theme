@@ -279,6 +279,7 @@ hi link doxygenBody phpComment
 hi link doxygenSpecialMultilineDesc phpComment
 hi link doxygenSmallSpecial phpComment
 hi link doxygenOther phpComment
+hi link doxygenBOther phpComment
 hi link doxygenLinkWord phpComment
 hi link doxygenEndLinkSpecial phpComment
 hi link doxygenSpecial phpComment
