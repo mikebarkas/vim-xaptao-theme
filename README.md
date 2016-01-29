@@ -13,3 +13,9 @@ Support for color terminal only.
 ----
 ### JSON
 ![JSON Screenshot](https://cloud.githubusercontent.com/assets/6330126/12666301/5f0a7674-c60d-11e5-9e34-071cdcf55374.png)
+
+----
+
+Currently in development.
+
+
