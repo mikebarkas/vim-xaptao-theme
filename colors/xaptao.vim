@@ -176,6 +176,17 @@ hi htmlArg        ctermfg=222 ctermbg=none cterm=none
 
 
 " --------------------------------------------------------
+" PYTHON
+" --------------------------------------------------------
+hi pythonInclude  ctermfg=247 ctermbg=none  cterm=none 
+hi pythonStatement  ctermfg=110 ctermbg=none  cterm=none
+hi pythonFunction  ctermfg=247 ctermbg=none  cterm=none 
+hi pythonString  ctermfg=248 ctermbg=none  cterm=none 
+hi pythonQuotes  ctermfg=248 ctermbg=none  cterm=none 
+hi pythonTripleQuotes  ctermfg=248 ctermbg=none  cterm=none 
+
+
+" --------------------------------------------------------
 " PHP
 " --------------------------------------------------------
 hi phpComment	    ctermfg=238	ctermbg=none	cterm=none
